@@ -153,6 +153,10 @@
   --u1: oklch(0.55 0.15 250);
   --u2: oklch(0.55 0.14 155);
   --u3: oklch(0.58 0.16 40);
+  --u4: oklch(0.55 0.15 300);
+  --u5: oklch(0.6 0.13 210);
+  --u6: oklch(0.6 0.16 350);
+  --u7: oklch(0.65 0.13 85);
   --hl: oklch(0.95 0.09 95);
   --notebook-font: "Kalam", "Caveat", cursive;
   --paper-overlay: oklch(1 0 0 / 65%);

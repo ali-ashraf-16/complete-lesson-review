@@ -176,7 +176,7 @@ button, input, select, textarea { font-family: inherit; }
 .nav-btn.sub { padding-left: 1.4rem; font-size: .8rem; opacity: .9; }
 .nav-unit { margin-top: .9rem; }
 .unit-btn { font-weight: 700; font-size: .75rem; letter-spacing: 0; border-left: 4px solid var(--accent-c); }
-.unit-1 { --accent-c: var(--u1); } .unit-2 { --accent-c: var(--u2); } .unit-3 { --accent-c: var(--u3); }
+.unit-1 { --accent-c: var(--u1); } .unit-2 { --accent-c: var(--u2); } .unit-3 { --accent-c: var(--u3); } .unit-4 { --accent-c: var(--u4); } .unit-5 { --accent-c: var(--u5); } .unit-6 { --accent-c: var(--u6); } .unit-7 { --accent-c: var(--u7); }
 .pages { flex: 1; padding: 2rem 1rem; display: flex; flex-direction: column; align-items: center; gap: 2rem; }
 
 .sheet { position: relative; width: 210mm; min-height: 297mm; padding: 16mm 16mm 22mm 24mm; background-color: var(--paper);

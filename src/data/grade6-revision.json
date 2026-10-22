@@ -1,2042 +1,316 @@
 {
- "title": "Grade 6 Math Revision Notebook",
- "subtitle": "Term 1 · Units 1–7 · Every rule, example and exam trick",
- "units": [
-  {
-   "id": "u1",
-   "label": "UNIT 1 · DIVISIBILITY, G.C.F & L.C.M"
-  },
-  {
-   "id": "u2",
-   "label": "UNIT 2 · RATIONAL NUMBERS"
-  },
-  {
-   "id": "u3",
-   "label": "UNIT 3 · ALGEBRAIC EXPRESSIONS"
-  },
-  {
-   "id": "u4",
-   "label": "UNIT 4 · EQUATIONS & INEQUALITIES"
-  },
-  {
-   "id": "u5",
-   "label": "UNIT 5 · DEPENDENT & INDEPENDENT VARIABLES"
-  },
-  {
-   "id": "u6",
-   "label": "UNIT 6 · DATA DISTRIBUTIONS"
-  },
-  {
-   "id": "u7",
-   "label": "UNIT 7 · MEASURES OF CENTRAL TENDENCY"
-  }
- ],
- "sheets": [
-  {
-   "id": "u1-l1-a",
-   "unit": "u1",
-   "lesson": "Lesson 1",
-   "title": "Divisibility Rules",
-   "rule": "A number is divisible by another number when the remainder is 0. Example: 15 ÷ 3 = 5 R0, so 15 is divisible by 3. But 13 ÷ 3 = 4 R1, so 13 is NOT divisible by 3.",
-   "words": [
-    [
-     "÷ 2",
-     "The ones digit is even: 0, 2, 4, 6 or 8. (146, 780)"
-    ],
-    [
-     "÷ 3",
-     "The sum of the digits is divisible by 3. (93 → 9 + 3 = 12 ✓)"
-    ],
-    [
-     "÷ 4",
-     "The last two digits (tens + ones) make a number divisible by 4, or they are 00. (224 → 24 ✓, 600 ✓)"
-    ],
-    [
-     "÷ 5",
-     "The ones digit is 0 or 5. (45, 595)"
-    ],
-    [
-     "÷ 6",
-     "The number is divisible by 2 AND by 3. (630: even ✓, 6 + 3 + 0 = 9 ✓)"
-    ],
-    [
-     "÷ 10",
-     "The ones digit is 0. (200, 67,890)"
-    ]
-   ],
-   "items": [
+  "title": "Grade 6 Math Revision Notebook",
+  "subtitle": "Term 1 · Units 1, 2 & 3 · Every rule, example and exam trick",
+  "units": [
+    { "id": "u1", "label": "UNIT 1 · DIVISIBILITY, G.C.F & L.C.M" },
+    { "id": "u2", "label": "UNIT 2 · RATIONAL NUMBERS" },
+    { "id": "u3", "label": "UNIT 3 · ALGEBRAIC EXPRESSIONS" }
+  ],
+  "sheets": [
     {
-     "label": "Example 1",
-     "question": "Is 1,132 divisible by 4? Is it divisible by 6?",
-     "steps": [
-      "Last two digits: 32. 32 ÷ 4 = 8 → divisible by 4.",
-      "1,132 is even ✓. Digit sum: 1 + 1 + 3 + 2 = 7 → 7 is not divisible by 3 ✗."
-     ],
-     "answer": "1,132 is divisible by 4 but NOT by 6."
+      "id": "u1-l1-a", "unit": "u1", "lesson": "Lesson 1", "title": "Divisibility Rules",
+      "rule": "A number is divisible by another number when the remainder is 0. Example: 15 ÷ 3 = 5 R0, so 15 is divisible by 3. But 13 ÷ 3 = 4 R1, so 13 is NOT divisible by 3.",
+      "words": [
+        ["÷ 2", "The ones digit is even: 0, 2, 4, 6 or 8. (146, 780)"],
+        ["÷ 3", "The sum of the digits is divisible by 3. (93 → 9 + 3 = 12 ✓)"],
+        ["÷ 4", "The last two digits (tens + ones) make a number divisible by 4, or they are 00. (224 → 24 ✓, 600 ✓)"],
+        ["÷ 5", "The ones digit is 0 or 5. (45, 595)"],
+        ["÷ 6", "The number is divisible by 2 AND by 3. (630: even ✓, 6 + 3 + 0 = 9 ✓)"],
+        ["÷ 10", "The ones digit is 0. (200, 67,890)"]
+      ],
+      "items": [
+        { "label": "Example 1", "question": "Is 1,132 divisible by 4? Is it divisible by 6?", "steps": ["Last two digits: 32. 32 ÷ 4 = 8 → divisible by 4.", "1,132 is even ✓. Digit sum: 1 + 1 + 3 + 2 = 7 → 7 is not divisible by 3 ✗."], "answer": "1,132 is divisible by 4 but NOT by 6." },
+        { "label": "Example 2", "question": "Which number is divisible by 2, 3 and 5: 15, 30, 75 or 320?", "steps": ["Divisible by 2 and 5 together → the ones digit must be 0: 30 or 320.", "Digit sums: 3 + 0 = 3 ✓, 3 + 2 + 0 = 5 ✗."], "answer": "30" }
+      ],
+      "tricks": [
+        "Divisible by 2 and 5 together = divisible by 10 → the ones digit must be 0.",
+        "For ÷ 4, look ONLY at the last two digits. 3,516 → 16 ✓. Do not check the whole number.",
+        "For ÷ 6 you need BOTH tests. An odd number can never be divisible by 6."
+      ],
+      "note": "Every whole number is divisible by 1. Every number (except 0) is divisible by itself. 0 is divisible by any number except 0."
     },
     {
-     "label": "Example 2",
-     "question": "Which number is divisible by 2, 3 and 5: 15, 30, 75 or 320?",
-     "steps": [
-      "Divisible by 2 and 5 together → the ones digit must be 0: 30 or 320.",
-      "Digit sums: 3 + 0 = 3 ✓, 3 + 2 + 0 = 5 ✗."
-     ],
-     "answer": "30"
+      "id": "u1-l1-b", "unit": "u1", "lesson": "Lesson 1", "title": "Factors and Multiples",
+      "rule": "3 × 5 = 15, so 3 and 5 are factors of 15, and 15 is a multiple of 3 and of 5. \"is a multiple of\" means the same as \"is divisible by\".",
+      "words": [
+        ["Factor", "A number that divides another number with remainder 0. Factors of 12: 1, 2, 3, 4, 6, 12."],
+        ["Multiple", "The answer of a times table. Multiples of 4: 0, 4, 8, 12, 16, …"],
+        ["Even / Odd", "Even ends in 0, 2, 4, 6, 8. Odd ends in 1, 3, 5, 7, 9."]
+      ],
+      "items": [
+        { "label": "Example 1", "question": "Complete: 8 × 9 = 72, then 72 is divisible by ___ and ___.", "answer": "8 and 9 (8 and 9 are factors of 72; 72 is a multiple of 8 and of 9)." },
+        { "label": "Example 2", "question": "If 412 is divisible by 4, then 4 is called a ___ of 412, and 412 is a ___ of 4.", "answer": "factor ; multiple" },
+        { "label": "Example 3", "question": "Find all the factors of 18.", "steps": ["Find pairs that multiply to 18: 1 × 18, 2 × 9, 3 × 6.", "Write them in order."], "answer": "1, 2, 3, 6, 9, 18" }
+      ],
+      "tricks": [
+        "Factors are SMALL (≤ the number). Multiples are BIG (≥ the number).",
+        "The smallest factor of any number is 1; the greatest factor is the number itself.",
+        "A number has a limited number of factors but an infinite number of multiples."
+      ],
+      "note": "If a number is a multiple of another, it is divisible by it — and the opposite is also true."
+    },
+    {
+      "id": "u1-l2-a", "unit": "u1", "lesson": "Lesson 2", "title": "Prime Numbers and Prime Factorization",
+      "rule": "Write a composite number as a product of prime factors using a factor tree. Keep splitting until every branch ends with a prime number.",
+      "words": [
+        ["Prime number", "Has exactly two factors: 1 and itself. 2, 3, 5, 7, 11, 13, 17, …"],
+        ["Composite number", "Has more than two factors. 4, 6, 9, 12, 25, 30"],
+        ["Prime factorization", "The number written as a product of primes. 36 = 2 × 2 × 3 × 3"]
+      ],
+      "items": [
+        { "label": "Example 1", "question": "Find the prime factorization of 36.", "steps": ["36 = 4 × 9", "4 = 2 × 2 and 9 = 3 × 3"], "answer": "36 = 2 × 2 × 3 × 3" },
+        { "label": "Example 2", "question": "Find the prime factorization of 28.", "steps": ["28 = 4 × 7", "4 = 2 × 2, and 7 is prime."], "answer": "28 = 2 × 2 × 7" },
+        { "label": "Example 3", "question": "Find the prime factorization of 60.", "steps": ["60 = 6 × 10", "6 = 2 × 3 and 10 = 2 × 5"], "answer": "60 = 2 × 2 × 3 × 5" }
+      ],
+      "tricks": [
+        "1 is NOT prime and NOT composite (it has only one factor).",
+        "2 is the only EVEN prime number.",
+        "Any start works: 36 = 6 × 6 or 4 × 9 — the final primes are always the same."
+      ],
+      "note": "Always check your answer: multiply the primes back together. 2 × 2 × 7 = 28 ✓"
+    },
+    {
+      "id": "u1-l2-b", "unit": "u1", "lesson": "Lesson 2", "title": "Finding the G.C.F and the L.C.M",
+      "rule": "G.C.F = the product of the COMMON prime factors only (the middle of the Venn diagram). L.C.M = the product of ALL the prime factors in the Venn diagram (common ones counted once).",
+      "words": [
+        ["G.C.F", "Greatest Common Factor: the greatest number that is a factor of both."],
+        ["L.C.M", "Least Common Multiple: the smallest multiple (not 0) that both numbers share."],
+        ["Venn diagram", "Two circles; the overlap holds the common prime factors."]
+      ],
+      "items": [
+        { "label": "Example 1", "question": "Find the G.C.F and L.C.M of 18 and 24.", "steps": ["18 = 2 × 3 × 3 and 24 = 2 × 3 × 2 × 2", "Common (overlap): 2, 3 → G.C.F = 2 × 3 = 6", "All in Venn: 3 | 2, 3 | 2, 2 → L.C.M = 3 × 2 × 3 × 2 × 2 = 72"], "answer": "G.C.F = 6 , L.C.M = 72" },
+        { "label": "Example 2", "question": "Find the G.C.F and L.C.M of 12 and 16.", "steps": ["12 = 2 × 2 × 3 and 16 = 2 × 2 × 2 × 2", "Common: 2, 2 → G.C.F = 4", "L.C.M = 3 × 2 × 2 × 2 × 2 = 48"], "answer": "G.C.F = 4 , L.C.M = 48" }
+      ],
+      "tricks": [
+        "Check: G.C.F × L.C.M = the product of the two numbers. 6 × 72 = 18 × 24 = 432 ✓",
+        "If the smaller number is a factor of the bigger one (4 and 12): G.C.F = the small number, L.C.M = the big number.",
+        "Venn questions: G.C.F = multiply the middle only; L.C.M = multiply everything you see."
+      ],
+      "note": "The G.C.F is never bigger than the smaller number. The L.C.M is never smaller than the bigger number."
+    },
+    {
+      "id": "u1-l2-c", "unit": "u1", "lesson": "Lesson 2", "title": "Relatively Prime Numbers",
+      "rule": "Two numbers are relatively prime when their only common factor is 1. Then G.C.F = 1 and L.C.M = the product of the two numbers.",
+      "items": [
+        { "label": "Example 1", "question": "Find the G.C.F and L.C.M of 8 and 9. Are they relatively prime?", "steps": ["8 = 2 × 2 × 2 and 9 = 3 × 3", "No common prime factors → the Venn overlap is empty."], "answer": "G.C.F = 1 , L.C.M = 8 × 9 = 72 → yes, relatively prime." },
+        { "label": "Example 2", "question": "Find the G.C.F and L.C.M of 4 and 9.", "steps": ["4 = 2 × 2 and 9 = 3 × 3 → nothing in common."], "answer": "G.C.F = 1 , L.C.M = 36" },
+        { "label": "Example 3", "question": "Which are relatively prime: 2 and 6, 4 and 9, 4 and 8, 10 and 15?", "steps": ["2 & 6 share 2; 4 & 8 share 4; 10 & 15 share 5.", "4 & 9 share only 1."], "answer": "4 and 9" },
+        { "label": "Example 4", "question": "Find the L.C.M of 5, 6 and 20.", "steps": ["Multiples of 20: 20, 40, 60 …", "60 ÷ 5 = 12 ✓ and 60 ÷ 6 = 10 ✓"], "answer": "L.C.M = 60" }
+      ],
+      "tricks": [
+        "Relatively prime numbers do NOT have to be prime: 8 and 9 are both composite!",
+        "Any two consecutive numbers (like 7 and 8) are relatively prime.",
+        "When the circles do not overlap, draw them apart: G.C.F = 1."
+      ],
+      "note": "The G.C.F of two relatively prime numbers is 1 — a very common exam MCQ."
+    },
+    {
+      "id": "u1-l3", "unit": "u1", "lesson": "Lesson 3", "title": "Writing Expressions Using the G.C.F",
+      "rule": "Use the G.C.F and the distributive property to rewrite a sum: a + b = G.C.F (a ÷ G.C.F + b ÷ G.C.F). The G.C.F is the greatest number of equal groups (packs, boxes, teams).",
+      "words": [
+        ["Distributive property", "30 (2 + 3) = 30 × 2 + 30 × 3 = 60 + 90"],
+        ["Outside the bracket", "The G.C.F = number of groups."],
+        ["Inside the bracket", "How many of each item go in ONE group."]
+      ],
+      "items": [
+        { "label": "Example 1", "question": "Dina has 60 sandwiches and 90 bottles of water. What is the greatest number of equal packs? Write the expression.", "steps": ["60 = 2 × 2 × 3 × 5 and 90 = 2 × 3 × 3 × 5", "G.C.F = 2 × 3 × 5 = 30", "60 ÷ 30 = 2 sandwiches, 90 ÷ 30 = 3 bottles in each pack."], "answer": "30 packs: 60 + 90 = 30 (2 + 3)" },
+        { "label": "Example 2", "question": "Use the G.C.F to write: a) 7 + 56   b) 8 + 10   c) 15 + 45   d) 60 + 20", "steps": ["G.C.F(7, 56) = 7; G.C.F(8, 10) = 2; G.C.F(15, 45) = 15; G.C.F(60, 20) = 20"], "answer": "a) 7 (1 + 8)  b) 2 (4 + 5)  c) 15 (1 + 3)  d) 20 (3 + 1)" },
+        { "label": "Example 3", "question": "10 packs of cheese and 20 bags of grain make food boxes. Which expression gives the greatest number of boxes?", "answer": "10 (1 + 2)" }
+      ],
+      "tricks": [
+        "Check the bracket: the two numbers inside must have NO common factor except 1. 5 (2 + 4) is wrong — 2 and 4 still share 2!",
+        "Check by multiplying out: 20 (3 + 1) = 60 + 20 ✓",
+        "\"Greatest number of groups / boxes / teams with nothing left\" → G.C.F."
+      ],
+      "note": "In the expression, the number outside is the number of groups; inside you have the amount of each item in one group."
+    },
+    {
+      "id": "u1-l4", "unit": "u1", "lesson": "Lesson 4", "title": "Using the L.C.M to Add and Subtract Fractions",
+      "rule": "To add or subtract unlike fractions: 1) find the L.C.M of the denominators, 2) change both fractions to that denominator, 3) add or subtract the numerators only.",
+      "items": [
+        { "label": "Example 1", "question": "Find 3/10 + 4/15.", "steps": ["L.C.M of 10 and 15 = 30", "3/10 = 9/30 (× 3) and 4/15 = 8/30 (× 2)", "9/30 + 8/30 = 17/30"], "answer": "17/30" },
+        { "label": "Example 2", "question": "Find 7/8 − 1/6.", "steps": ["L.C.M of 8 and 6 = 24", "7/8 = 21/24 and 1/6 = 4/24", "21/24 − 4/24 = 17/24"], "answer": "17/24" },
+        { "label": "Example 3", "question": "Find 2/3 + 3/4 and 2 − 2/9 − 5/6.", "steps": ["2/3 + 3/4 = 8/12 + 9/12 = 17/12 = 1 5/12", "2 − 2/9 − 5/6 = 36/18 − 4/18 − 15/18 = 17/18"], "answer": "1 5/12 ; 17/18" }
+      ],
+      "tricks": [
+        "Never add the denominators! 1/2 + 1/3 is NOT 2/5. It is 3/6 + 2/6 = 5/6.",
+        "Whatever you multiply the denominator by, multiply the numerator by the same number.",
+        "Mixed numbers: subtract wholes and fractions, or change to improper fractions when the first fraction is smaller (regrouping). Always simplify the answer."
+      ],
+      "note": "A whole number can be written with any denominator: 2 = 18/9 = 36/18."
+    },
+    {
+      "id": "u2-l1-a", "unit": "u2", "lesson": "Lessons 1 & 2", "title": "Counting Numbers, Natural Numbers and Integers",
+      "rule": "Counting numbers: 1, 2, 3, … Natural numbers: 0, 1, 2, 3, … Integers: …, −3, −2, −1, 0, 1, 2, 3, … (natural numbers + negative numbers).",
+      "words": [
+        ["Negative number", "Less than zero: −30 °C (30 below zero), −10 m (below sea level)."],
+        ["Origin", "The point that represents 0 on the number line."],
+        ["Non-negative integers", "0, 1, 2, 3, …   Non-positive integers: 0, −1, −2, −3, …"]
+      ],
+      "items": [
+        { "label": "Example 1", "question": "Which is an integer: −0.5, −5, 5.5, 5 4/5, 7/7, 12/3?", "steps": ["Decimals and fractions that are not whole are not integers.", "7/7 = 1 and 12/3 = 4 are whole numbers."], "answer": "−5, 7/7 and 12/3" },
+        { "label": "Example 2", "question": "Write an integer: a profit of 25 L.E., a loss of 3 L.E., 10 degrees below 0, 6 m above sea level, 19 m below ground, 4 steps backward.", "answer": "25, −3, −10, 6, −19, −4" }
+      ],
+      "tricks": [
+        "Zero is neither positive nor negative.",
+        "Key words for negative: loss, below, withdraw, backward, decrease, debt. Positive: profit, above, deposit, forward, increase.",
+        "The smallest counting number is 1; the smallest natural number is 0; there is NO smallest integer."
+      ],
+      "note": "On a horizontal number line, negatives are to the LEFT of 0. On a vertical one, negatives are BELOW 0."
+    },
+    {
+      "id": "u2-l1-b", "unit": "u2", "lesson": "Lessons 1 & 2", "title": "Opposites and Comparing Integers",
+      "rule": "Two numbers at the same distance from 0 on opposite sides are opposites (additive inverses): 5 and −5. On the number line, the number farther to the RIGHT is greater.",
+      "items": [
+        { "label": "Example 1", "question": "Write the opposite of: −7, 1,000, 0.", "answer": "7, −1,000, 0" },
+        { "label": "Example 2", "question": "Put < , > or = :  4 ☐ 3,  5 ☐ −10,  −12 ☐ −4,  0 ☐ −2,  −8 ☐ 7,  −3 ☐ −7", "answer": "> , > , < , > , < , >" },
+        { "label": "Example 3", "question": "Arrange 4, −5, 1, −3, 0, 6, −7, −1 in ascending order, then descending order.", "steps": ["Place them on a number line; read from left to right for ascending."], "answer": "Ascending: −7, −5, −3, −1, 0, 1, 4, 6 · Descending: 6, 4, 1, 0, −1, −3, −5, −7" }
+      ],
+      "tricks": [
+        "Between two negatives, the one with the SMALLER digits is greater: −2 > −8 (warmer!).",
+        "Any positive number > 0 > any negative number.",
+        "The opposite of the opposite is the number itself: −(−5) = 5. The sum of a number and its opposite = 0."
+      ],
+      "note": "Ascending = from smallest to greatest. Descending = from greatest to smallest."
+    },
+    {
+      "id": "u2-l3", "unit": "u2", "lesson": "Lesson 3", "title": "Rational Numbers and Subsets",
+      "rule": "A rational number is any number that can be written as a/b, where a and b are integers and b ≠ 0. Examples: 5 = 5/1, −3 = −3/1, 0 = 0/1, 3 1/8 = 25/8, 0.28 = 28/100.",
+      "words": [
+        ["Order of sets", "Counting ⊂ Natural ⊂ Integers ⊂ Rational (each set is inside the next one)."],
+        ["belongs / does not belong", "Relation between an ELEMENT and a SET: −3 belongs to integers."],
+        ["a subset / not a subset", "Relation between TWO SETS: integers is a subset of rational numbers."]
+      ],
+      "items": [
+        { "label": "Example 1", "question": "Write in the form a/b: −3, −0.31, 3 2/5, −2.5", "steps": ["3 2/5 = (3 × 5 + 2)/5 = 17/5"], "answer": "−3/1, −31/100, 17/5, −25/10" },
+        { "label": "Example 2", "question": "Choose the best subset: 0.785, 3/7, −428, −3, 0, 4, 17,273, 4.8", "answer": "rational, rational, integer, integer, natural, counting, counting, rational" },
+        { "label": "Example 3", "question": "Complete: a) −3/7 ___ to integers  b) set of natural numbers is ___ of set of integers  c) set of rational numbers is ___ of natural numbers", "answer": "a) does not belong  b) a subset  c) not a subset" }
+      ],
+      "tricks": [
+        "\"Best subset\" = the SMALLEST circle the number fits in: 5 → counting, 0 → natural, −4 → integer, −2/3 → rational.",
+        "Use belongs with a NUMBER, use subset with a SET.",
+        "−25/10 = 25/−10 = −(25/10): the negative sign can go up, down or in front."
+      ],
+      "note": "Every integer is rational, but not every rational number is an integer."
+    },
+    {
+      "id": "u2-l3-b", "unit": "u2", "lesson": "Lesson 3", "title": "Rational Numbers on the Number Line",
+      "rule": "Positive rational numbers are to the right of 0; negative ones are to the left. To graph 3/4, divide the space between 0 and 1 into 4 equal parts and count 3 parts.",
+      "items": [
+        { "label": "Example 1", "question": "Where is 3/4 on the number line?", "steps": ["3/4 is between 0 and 1.", "Split 0 to 1 into 4 equal parts: 0/4, 1/4, 2/4, 3/4, 4/4."], "answer": "At the third mark after 0." },
+        { "label": "Example 2", "question": "Graph 1.5, 1/2, 2/8, −2.5, −3 1/4 on one number line.", "steps": ["2/8 = 1/4 (simplify first).", "−2.5 is halfway between −3 and −2; −3 1/4 is just left of −3."], "answer": "Order left to right: −3 1/4, −2.5, 1/4, 1/2, 1.5" }
+      ],
+      "tricks": [
+        "−3/4 and 3/4 are at the same distance from 0 on different sides — they are opposites.",
+        "For a negative mixed number like −1 1/2, go 1 to the left, then ½ more to the left.",
+        "Simplify or change to decimals before graphing: 2/8 = 0.25."
+      ],
+      "note": "Every rational number has exactly one point on the number line."
+    },
+    {
+      "id": "u2-l4", "unit": "u2", "lesson": "Lesson 4", "title": "Comparing and Ordering Rational Numbers",
+      "rule": "1) Positive > negative. 2) Same denominator → bigger numerator wins. 3) Same numerator → bigger denominator is SMALLER. 4) Different → use the L.C.M to make common denominators, then compare numerators.",
+      "items": [
+        { "label": "Example 1", "question": "Compare: 5/12 ☐ 7/12,  1/4 ☐ −5/6,  11/12 ☐ 11/15,  6/12 ☐ 2/3,  3.2 ☐ 11/2,  −4 ☐ −4.1", "steps": ["2/3 = 8/12 → 6/12 < 8/12", "11/2 = 5.5 → 3.2 < 5.5"], "answer": "< , > , > , < , < , >" },
+        { "label": "Example 2", "question": "Arrange ascending: −2/3, 3/4, −7/12, 5/6, −1", "steps": ["L.C.M = 12: −8/12, 9/12, −7/12, 10/12, −12/12"], "answer": "−1, −2/3, −7/12, 3/4, 5/6" },
+        { "label": "Example 3", "question": "Find a rational number between 1/2 and 5/7, and between −2.1 and −2.", "steps": ["1/2 = 7/14 and 5/7 = 10/14 → 8/14 is between.", "−2 = −2.00 and −2.1 = −2.10 → −2.01 is between."], "answer": "8/14 (or 9/14) ; −2.01 (other answers are possible)" }
+      ],
+      "tricks": [
+        "Compare with 1: 65/63 > 1 and 57/59 < 1, so 65/63 > 57/59.",
+        "Density: between ANY two rational numbers there are infinitely many rational numbers. Between two consecutive integers there is NO integer.",
+        "Decimals: add zeros to make equal length: 3.7 = 3.70 > 3.15."
+      ],
+      "note": "With negatives the order flips: −1/4 > −2/9? Change: −9/36 and −8/36 → −1/4 < −2/9."
+    },
+    {
+      "id": "u2-l5", "unit": "u2", "lesson": "Lessons 5 & 6", "title": "Absolute Value",
+      "rule": "The absolute value of a number is its distance from 0. Distance is never negative, so |5| = 5 and |−5| = 5.",
+      "items": [
+        { "label": "Example 1", "question": "Find: |−4|, −|4|, |0|, −|−3/7|, |−3| + |5|, |−2| + |−7|, |−6| − |6|, |−3| × |−2|, |−10| ÷ |2|", "answer": "4, −4, 0, −3/7, 8, 9, 0, 6, 5" },
+        { "label": "Example 2", "question": "Find x: |x| = 5, |x| = 10, |x| = 0, |−7| = x", "answer": "x = 5 or −5 ; x = 10 or −10 ; x = 0 ; x = 7" },
+        { "label": "Example 3", "question": "Compare: |−2| ☐ |−7|,  |−2.8| ☐ −2.8,  3 1/4 ☐ |−3 2/3|,  |−4.25| ☐ 4.3", "steps": ["Find each absolute value first, then compare."], "answer": "< , > , < , <" }
+      ],
+      "tricks": [
+        "Watch the minus OUTSIDE the bars: −|4| = −4 but |−4| = 4.",
+        "|x| = 6 has TWO answers: 6 and −6. Only |x| = 0 has one answer.",
+        "Opposites have the SAME absolute value: |−11| = |11|. The farther from 0, the greater the absolute value."
+      ],
+      "note": "−22 °C is colder than −5 °C, even though |−22| > |−5|. Absolute value measures distance, not size."
+    },
+    {
+      "id": "u3-l1", "unit": "u3", "lesson": "Lessons 1 & 2", "title": "Creating Mathematical Expressions",
+      "rule": "When a value changes, replace it with a letter (a variable). Burgers cost 50 L.E. each + 20 L.E. delivery → cost = 50n + 20, where n is the number of sandwiches.",
+      "words": [
+        ["Variable", "A letter that stands for a value that can change (n, x, y …)."],
+        ["Numeric expression", "Only numbers and operations: 3 + 6.8 − 4, 4 (5 − 2)"],
+        ["Algebraic expression", "Numbers, operations AND variables: 1/5 m − 6, 2x + 3y"]
+      ],
+      "items": [
+        { "label": "Example 1", "question": "Mona saves 10 L.E. daily, and her father gave her 25 L.E. on the first day. Write an expression for her money after n days.", "steps": ["Always the same: 10 (daily) and 25 (gift).", "Varies: the number of days and the total money."], "answer": "10n + 25" },
+        { "label": "Example 2", "question": "A ticket is 50 L.E. and each game is 20 L.E. Write the cost for g games, then find the cost of 5 games.", "steps": ["Cost = 20g + 50", "20 × 5 + 50 = 100 + 50"], "answer": "20g + 50 ; 150 L.E." },
+        { "label": "Example 3", "question": "Sort: 12 + 5.8, 3k + 4, 8 (1.4 − n), 2 (3) + 5", "answer": "numeric, algebraic, algebraic, numeric" }
+      ],
+      "tricks": [
+        "The value that changes goes WITH the variable (×n); the fixed one-time value is added alone.",
+        "Half the price → p ÷ 2 or 1/2 p.",
+        "2 (3) means 2 × 3 → no letter → numeric."
+      ],
+      "note": "50n means 50 × n. We do not write the × sign between a number and a variable."
+    },
+    {
+      "id": "u3-l2", "unit": "u3", "lesson": "Lessons 1 & 2", "title": "Terms, Coefficients, Constants and Like Terms",
+      "rule": "Terms are the parts of an expression separated by + or −. In 2 − 5x + 3/4 + 7x the terms are 2, −5x, 3/4 and 7x.",
+      "words": [
+        ["Constant", "A term with no variable: 2 and 3/4."],
+        ["Coefficient", "The number multiplied by the variable: −5 and 7."],
+        ["Like terms", "Terms with the SAME variable (−5x, 7x), or numbers only (2, 3/4)."]
+      ],
+      "items": [
+        { "label": "Example 1", "question": "Expression 5a − 3b + 4: number of terms, like terms, constants, coefficients?", "answer": "3 terms ; no like terms ; constant 4 ; coefficients 5 and −3" },
+        { "label": "Example 2", "question": "Expression k + k + 6k: terms, like terms, coefficients?", "answer": "3 terms ; all like (k, k, 6k) ; coefficients 1, 1, 6 ; no constant" },
+        { "label": "Example 3", "question": "Expression m + 3 + 2n + 2: terms and like terms?", "answer": "4 terms ; like terms: 3 and 2" }
+      ],
+      "tricks": [
+        "A variable alone has coefficient 1: x = 1x.",
+        "Take the SIGN with the term: in 3 − b + 5 the coefficient of b is −1.",
+        "4x and 4y are NOT like terms (different letters). 4 and 7 are like terms (both constants)."
+      ],
+      "note": "A single number like 4 or a single letter like z is an expression with ONE term."
+    },
+    {
+      "id": "u3-l3-a", "unit": "u3", "lesson": "Lesson 3", "title": "Writing Algebraic Expressions — Key Words",
+      "rule": "Learn the key words, then translate word by word into symbols.",
+      "words": [
+        ["Addition (+)", "add, sum, plus, increased by, more than, exceeds, total, in all, gain, deposit"],
+        ["Subtraction (−)", "subtract, difference, minus, decreased by, less than, fewer, diminished by, take away, withdraw, reduced by"],
+        ["Multiplication (×)", "multiplied by, product, times, double / twice (×2), triple / thrice (×3)"],
+        ["Division (÷)", "divide, quotient, per, divided equally, split into, half (÷2), third (÷3)"]
+      ],
+      "items": [
+        { "label": "Example 1", "question": "Write in words (two ways): x + 4, m − 5, 2y, z ÷ 3, kk", "answer": "the sum of x and 4 / x increased by 4 ; m decreased by 5 / 5 less than m ; the product of 2 and y / 2 times y ; z divided by 3 / the quotient of z by 3 ; a number multiplied by itself" },
+        { "label": "Example 2", "question": "Write in words: 5 + 4n, 2n − 8, 4 (n − 7)", "answer": "the sum of 5 and four times n ; 8 less than twice n ; four times the difference between n and 7" }
+      ],
+      "tricks": [
+        "\"less than\" and \"subtracted from\" FLIP the order: 5 less than x = x − 5 (NOT 5 − x).",
+        "\"a number multiplied by itself\" = x × x (written xx).",
+        "\"Four times THE DIFFERENCE / THE SUM\" → use brackets: 4 (n − 7)."
+      ],
+      "note": "Read the whole sentence first, then decide the order of the numbers."
+    },
+    {
+      "id": "u3-l3-b", "unit": "u3", "lesson": "Lesson 3", "title": "Writing Algebraic Expressions — Words to Symbols",
+      "rule": "How to solve: 1) give the unknown number a letter, 2) use parentheses when a SUM or DIFFERENCE is multiplied or divided.",
+      "items": [
+        { "label": "Example 1", "question": "Write: a) twice a number less than 10  b) three times the sum of a number and 4  c) a number divided by 5 is increased by 8", "answer": "a) 10 − 2x  b) 3 (a + 4)  c) k/5 + 8" },
+        { "label": "Example 2", "question": "Write: a) Roudy deposits 5,000 pounds in her account (balance y)  b) 7 boxes, each with x pens  c) perimeter of a rectangle, length 10 cm and width w cm  d) money n shared among 5 people, then each spends 27 pounds", "answer": "a) y + 5000  b) 7x  c) 2 (10 + w)  d) n/5 − 27" },
+        { "label": "Example 3", "question": "Write: add 3 to double a number ; half the product of a number by itself ; 17 less the product of a number by itself", "answer": "2x + 3 ; (x × x) ÷ 2 ; 17 − xx" }
+      ],
+      "tricks": [
+        "\"The sum of 2 and 5 multiplied by x\" = (2 + 5) x, but \"the sum of 5 and 2 times x\" = 5 + 2x.",
+        "\"Multiply x by 14 and divide the product by 2\" = 14x ÷ 2.",
+        "\"7 decreased by 5x\" = 7 − 5x ; \"the product of 3 and the sum of y and 4\" = 3 (y + 4)."
+      ],
+      "note": "Check by choosing a number: if x = 2, does your expression give the same answer as the sentence?"
     }
-   ],
-   "tricks": [
-    "Divisible by 2 and 5 together = divisible by 10 → the ones digit must be 0.",
-    "For ÷ 4, look ONLY at the last two digits. 3,516 → 16 ✓. Do not check the whole number.",
-    "For ÷ 6 you need BOTH tests. An odd number can never be divisible by 6."
-   ],
-   "note": "Every whole number is divisible by 1. Every number (except 0) is divisible by itself. 0 is divisible by any number except 0.",
-   "part": 1
-  },
-  {
-   "id": "u1-l1-b",
-   "unit": "u1",
-   "lesson": "Lesson 1",
-   "title": "Factors and Multiples",
-   "rule": "3 × 5 = 15, so 3 and 5 are factors of 15, and 15 is a multiple of 3 and of 5. \"is a multiple of\" means the same as \"is divisible by\".",
-   "words": [
-    [
-     "Factor",
-     "A number that divides another number with remainder 0. Factors of 12: 1, 2, 3, 4, 6, 12."
-    ],
-    [
-     "Multiple",
-     "The answer of a times table. Multiples of 4: 0, 4, 8, 12, 16, …"
-    ],
-    [
-     "Even / Odd",
-     "Even ends in 0, 2, 4, 6, 8. Odd ends in 1, 3, 5, 7, 9."
-    ]
-   ],
-   "items": [
-    {
-     "label": "Example 1",
-     "question": "Complete: 8 × 9 = 72, then 72 is divisible by ___ and ___.",
-     "answer": "8 and 9 (8 and 9 are factors of 72; 72 is a multiple of 8 and of 9)."
-    },
-    {
-     "label": "Example 2",
-     "question": "If 412 is divisible by 4, then 4 is called a ___ of 412, and 412 is a ___ of 4.",
-     "answer": "factor ; multiple"
-    },
-    {
-     "label": "Example 3",
-     "question": "Find all the factors of 18.",
-     "steps": [
-      "Find pairs that multiply to 18: 1 × 18, 2 × 9, 3 × 6.",
-      "Write them in order."
-     ],
-     "answer": "1, 2, 3, 6, 9, 18"
-    }
-   ],
-   "tricks": [
-    "Factors are SMALL (≤ the number). Multiples are BIG (≥ the number).",
-    "The smallest factor of any number is 1; the greatest factor is the number itself.",
-    "A number has a limited number of factors but an infinite number of multiples."
-   ],
-   "note": "If a number is a multiple of another, it is divisible by it — and the opposite is also true.",
-   "part": 1
-  },
-  {
-   "id": "u1-l2-a",
-   "unit": "u1",
-   "lesson": "Lesson 2",
-   "title": "Prime Numbers and Prime Factorization",
-   "rule": "Write a composite number as a product of prime factors using a factor tree. Keep splitting until every branch ends with a prime number.",
-   "words": [
-    [
-     "Prime number",
-     "Has exactly two factors: 1 and itself. 2, 3, 5, 7, 11, 13, 17, …"
-    ],
-    [
-     "Composite number",
-     "Has more than two factors. 4, 6, 9, 12, 25, 30"
-    ],
-    [
-     "Prime factorization",
-     "The number written as a product of primes. 36 = 2 × 2 × 3 × 3"
-    ]
-   ],
-   "items": [
-    {
-     "label": "Example 1",
-     "question": "Find the prime factorization of 36.",
-     "steps": [
-      "36 = 4 × 9",
-      "4 = 2 × 2 and 9 = 3 × 3"
-     ],
-     "answer": "36 = 2 × 2 × 3 × 3"
-    },
-    {
-     "label": "Example 2",
-     "question": "Find the prime factorization of 28.",
-     "steps": [
-      "28 = 4 × 7",
-      "4 = 2 × 2, and 7 is prime."
-     ],
-     "answer": "28 = 2 × 2 × 7"
-    },
-    {
-     "label": "Example 3",
-     "question": "Find the prime factorization of 60.",
-     "steps": [
-      "60 = 6 × 10",
-      "6 = 2 × 3 and 10 = 2 × 5"
-     ],
-     "answer": "60 = 2 × 2 × 3 × 5"
-    }
-   ],
-   "tricks": [
-    "1 is NOT prime and NOT composite (it has only one factor).",
-    "2 is the only EVEN prime number.",
-    "Any start works: 36 = 6 × 6 or 4 × 9 — the final primes are always the same."
-   ],
-   "note": "Always check your answer: multiply the primes back together. 2 × 2 × 7 = 28 ✓",
-   "part": 1
-  },
-  {
-   "id": "u1-l2-b",
-   "unit": "u1",
-   "lesson": "Lesson 2",
-   "title": "Finding the G.C.F and the L.C.M",
-   "rule": "G.C.F = the product of the COMMON prime factors only (the middle of the Venn diagram). L.C.M = the product of ALL the prime factors in the Venn diagram (common ones counted once).",
-   "words": [
-    [
-     "G.C.F",
-     "Greatest Common Factor: the greatest number that is a factor of both."
-    ],
-    [
-     "L.C.M",
-     "Least Common Multiple: the smallest multiple (not 0) that both numbers share."
-    ],
-    [
-     "Venn diagram",
-     "Two circles; the overlap holds the common prime factors."
-    ]
-   ],
-   "items": [
-    {
-     "label": "Example 1",
-     "question": "Find the G.C.F and L.C.M of 18 and 24.",
-     "steps": [
-      "18 = 2 × 3 × 3 and 24 = 2 × 3 × 2 × 2",
-      "Common (overlap): 2, 3 → G.C.F = 2 × 3 = 6",
-      "All in Venn: 3 | 2, 3 | 2, 2 → L.C.M = 3 × 2 × 3 × 2 × 2 = 72"
-     ],
-     "answer": "G.C.F = 6 , L.C.M = 72"
-    },
-    {
-     "label": "Example 2",
-     "question": "Find the G.C.F and L.C.M of 12 and 16.",
-     "steps": [
-      "12 = 2 × 2 × 3 and 16 = 2 × 2 × 2 × 2",
-      "Common: 2, 2 → G.C.F = 4",
-      "L.C.M = 3 × 2 × 2 × 2 × 2 = 48"
-     ],
-     "answer": "G.C.F = 4 , L.C.M = 48"
-    }
-   ],
-   "tricks": [
-    "Check: G.C.F × L.C.M = the product of the two numbers. 6 × 72 = 18 × 24 = 432 ✓",
-    "If the smaller number is a factor of the bigger one (4 and 12): G.C.F = the small number, L.C.M = the big number.",
-    "Venn questions: G.C.F = multiply the middle only; L.C.M = multiply everything you see."
-   ],
-   "note": "The G.C.F is never bigger than the smaller number. The L.C.M is never smaller than the bigger number.",
-   "part": 1
-  },
-  {
-   "id": "u1-l2-c",
-   "unit": "u1",
-   "lesson": "Lesson 2",
-   "title": "Relatively Prime Numbers",
-   "rule": "Two numbers are relatively prime when their only common factor is 1. Then G.C.F = 1 and L.C.M = the product of the two numbers.",
-   "items": [
-    {
-     "label": "Example 1",
-     "question": "Find the G.C.F and L.C.M of 8 and 9. Are they relatively prime?",
-     "steps": [
-      "8 = 2 × 2 × 2 and 9 = 3 × 3",
-      "No common prime factors → the Venn overlap is empty."
-     ],
-     "answer": "G.C.F = 1 , L.C.M = 8 × 9 = 72 → yes, relatively prime."
-    },
-    {
-     "label": "Example 2",
-     "question": "Find the G.C.F and L.C.M of 4 and 9.",
-     "steps": [
-      "4 = 2 × 2 and 9 = 3 × 3 → nothing in common."
-     ],
-     "answer": "G.C.F = 1 , L.C.M = 36"
-    },
-    {
-     "label": "Example 3",
-     "question": "Which are relatively prime: 2 and 6, 4 and 9, 4 and 8, 10 and 15?",
-     "steps": [
-      "2 & 6 share 2; 4 & 8 share 4; 10 & 15 share 5.",
-      "4 & 9 share only 1."
-     ],
-     "answer": "4 and 9"
-    },
-    {
-     "label": "Example 4",
-     "question": "Find the L.C.M of 5, 6 and 20.",
-     "steps": [
-      "Multiples of 20: 20, 40, 60 …",
-      "60 ÷ 5 = 12 ✓ and 60 ÷ 6 = 10 ✓"
-     ],
-     "answer": "L.C.M = 60"
-    }
-   ],
-   "tricks": [
-    "Relatively prime numbers do NOT have to be prime: 8 and 9 are both composite!",
-    "Any two consecutive numbers (like 7 and 8) are relatively prime.",
-    "When the circles do not overlap, draw them apart: G.C.F = 1."
-   ],
-   "note": "The G.C.F of two relatively prime numbers is 1 — a very common exam MCQ.",
-   "part": 1
-  },
-  {
-   "id": "u1-l3",
-   "unit": "u1",
-   "lesson": "Lesson 3",
-   "title": "Writing Expressions Using the G.C.F",
-   "rule": "Use the G.C.F and the distributive property to rewrite a sum: a + b = G.C.F (a ÷ G.C.F + b ÷ G.C.F). The G.C.F is the greatest number of equal groups (packs, boxes, teams).",
-   "words": [
-    [
-     "Distributive property",
-     "30 (2 + 3) = 30 × 2 + 30 × 3 = 60 + 90"
-    ],
-    [
-     "Outside the bracket",
-     "The G.C.F = number of groups."
-    ],
-    [
-     "Inside the bracket",
-     "How many of each item go in ONE group."
-    ]
-   ],
-   "items": [
-    {
-     "label": "Example 1",
-     "question": "Dina has 60 sandwiches and 90 bottles of water. What is the greatest number of equal packs? Write the expression.",
-     "steps": [
-      "60 = 2 × 2 × 3 × 5 and 90 = 2 × 3 × 3 × 5",
-      "G.C.F = 2 × 3 × 5 = 30",
-      "60 ÷ 30 = 2 sandwiches, 90 ÷ 30 = 3 bottles in each pack."
-     ],
-     "answer": "30 packs: 60 + 90 = 30 (2 + 3)"
-    },
-    {
-     "label": "Example 2",
-     "question": "Use the G.C.F to write: a) 7 + 56   b) 8 + 10   c) 15 + 45   d) 60 + 20",
-     "steps": [
-      "G.C.F(7, 56) = 7; G.C.F(8, 10) = 2; G.C.F(15, 45) = 15; G.C.F(60, 20) = 20"
-     ],
-     "answer": "a) 7 (1 + 8)  b) 2 (4 + 5)  c) 15 (1 + 3)  d) 20 (3 + 1)"
-    },
-    {
-     "label": "Example 3",
-     "question": "10 packs of cheese and 20 bags of grain make food boxes. Which expression gives the greatest number of boxes?",
-     "answer": "10 (1 + 2)"
-    }
-   ],
-   "tricks": [
-    "Check the bracket: the two numbers inside must have NO common factor except 1. 5 (2 + 4) is wrong — 2 and 4 still share 2!",
-    "Check by multiplying out: 20 (3 + 1) = 60 + 20 ✓",
-    "\"Greatest number of groups / boxes / teams with nothing left\" → G.C.F."
-   ],
-   "note": "In the expression, the number outside is the number of groups; inside you have the amount of each item in one group.",
-   "part": 1
-  },
-  {
-   "id": "u1-l4",
-   "unit": "u1",
-   "lesson": "Lesson 4",
-   "title": "Using the L.C.M to Add and Subtract Fractions",
-   "rule": "To add or subtract unlike fractions: 1) find the L.C.M of the denominators, 2) change both fractions to that denominator, 3) add or subtract the numerators only.",
-   "items": [
-    {
-     "label": "Example 1",
-     "question": "Find 3/10 + 4/15.",
-     "steps": [
-      "L.C.M of 10 and 15 = 30",
-      "3/10 = 9/30 (× 3) and 4/15 = 8/30 (× 2)",
-      "9/30 + 8/30 = 17/30"
-     ],
-     "answer": "17/30"
-    },
-    {
-     "label": "Example 2",
-     "question": "Find 7/8 − 1/6.",
-     "steps": [
-      "L.C.M of 8 and 6 = 24",
-      "7/8 = 21/24 and 1/6 = 4/24",
-      "21/24 − 4/24 = 17/24"
-     ],
-     "answer": "17/24"
-    },
-    {
-     "label": "Example 3",
-     "question": "Find 2/3 + 3/4 and 2 − 2/9 − 5/6.",
-     "steps": [
-      "2/3 + 3/4 = 8/12 + 9/12 = 17/12 = 1 5/12",
-      "2 − 2/9 − 5/6 = 36/18 − 4/18 − 15/18 = 17/18"
-     ],
-     "answer": "1 5/12 ; 17/18"
-    }
-   ],
-   "tricks": [
-    "Never add the denominators! 1/2 + 1/3 is NOT 2/5. It is 3/6 + 2/6 = 5/6.",
-    "Whatever you multiply the denominator by, multiply the numerator by the same number.",
-    "Mixed numbers: subtract wholes and fractions, or change to improper fractions when the first fraction is smaller (regrouping). Always simplify the answer."
-   ],
-   "note": "A whole number can be written with any denominator: 2 = 18/9 = 36/18.",
-   "part": 1
-  },
-  {
-   "id": "u2-l1-a",
-   "unit": "u2",
-   "lesson": "Lessons 1 & 2",
-   "title": "Counting Numbers, Natural Numbers and Integers",
-   "rule": "Counting numbers: 1, 2, 3, … Natural numbers: 0, 1, 2, 3, … Integers: …, −3, −2, −1, 0, 1, 2, 3, … (natural numbers + negative numbers).",
-   "words": [
-    [
-     "Negative number",
-     "Less than zero: −30 °C (30 below zero), −10 m (below sea level)."
-    ],
-    [
-     "Origin",
-     "The point that represents 0 on the number line."
-    ],
-    [
-     "Non-negative integers",
-     "0, 1, 2, 3, …   Non-positive integers: 0, −1, −2, −3, …"
-    ]
-   ],
-   "items": [
-    {
-     "label": "Example 1",
-     "question": "Which is an integer: −0.5, −5, 5.5, 5 4/5, 7/7, 12/3?",
-     "steps": [
-      "Decimals and fractions that are not whole are not integers.",
-      "7/7 = 1 and 12/3 = 4 are whole numbers."
-     ],
-     "answer": "−5, 7/7 and 12/3"
-    },
-    {
-     "label": "Example 2",
-     "question": "Write an integer: a profit of 25 L.E., a loss of 3 L.E., 10 degrees below 0, 6 m above sea level, 19 m below ground, 4 steps backward.",
-     "answer": "25, −3, −10, 6, −19, −4"
-    }
-   ],
-   "tricks": [
-    "Zero is neither positive nor negative.",
-    "Key words for negative: loss, below, withdraw, backward, decrease, debt. Positive: profit, above, deposit, forward, increase.",
-    "The smallest counting number is 1; the smallest natural number is 0; there is NO smallest integer."
-   ],
-   "note": "On a horizontal number line, negatives are to the LEFT of 0. On a vertical one, negatives are BELOW 0.",
-   "part": 1
-  },
-  {
-   "id": "u2-l1-b",
-   "unit": "u2",
-   "lesson": "Lessons 1 & 2",
-   "title": "Opposites and Comparing Integers",
-   "rule": "Two numbers at the same distance from 0 on opposite sides are opposites (additive inverses): 5 and −5. On the number line, the number farther to the RIGHT is greater.",
-   "items": [
-    {
-     "label": "Example 1",
-     "question": "Write the opposite of: −7, 1,000, 0.",
-     "answer": "7, −1,000, 0"
-    },
-    {
-     "label": "Example 2",
-     "question": "Put < , > or = :  4 ☐ 3,  5 ☐ −10,  −12 ☐ −4,  0 ☐ −2,  −8 ☐ 7,  −3 ☐ −7",
-     "answer": "> , > , < , > , < , >"
-    },
-    {
-     "label": "Example 3",
-     "question": "Arrange 4, −5, 1, −3, 0, 6, −7, −1 in ascending order, then descending order.",
-     "steps": [
-      "Place them on a number line; read from left to right for ascending."
-     ],
-     "answer": "Ascending: −7, −5, −3, −1, 0, 1, 4, 6 · Descending: 6, 4, 1, 0, −1, −3, −5, −7"
-    }
-   ],
-   "tricks": [
-    "Between two negatives, the one with the SMALLER digits is greater: −2 > −8 (warmer!).",
-    "Any positive number > 0 > any negative number.",
-    "The opposite of the opposite is the number itself: −(−5) = 5. The sum of a number and its opposite = 0."
-   ],
-   "note": "Ascending = from smallest to greatest. Descending = from greatest to smallest.",
-   "part": 1
-  },
-  {
-   "id": "u2-l3",
-   "unit": "u2",
-   "lesson": "Lesson 3",
-   "title": "Rational Numbers and Subsets",
-   "rule": "A rational number is any number that can be written as a/b, where a and b are integers and b ≠ 0. Examples: 5 = 5/1, −3 = −3/1, 0 = 0/1, 3 1/8 = 25/8, 0.28 = 28/100.",
-   "words": [
-    [
-     "Order of sets",
-     "Counting ⊂ Natural ⊂ Integers ⊂ Rational (each set is inside the next one)."
-    ],
-    [
-     "belongs / does not belong",
-     "Relation between an ELEMENT and a SET: −3 belongs to integers."
-    ],
-    [
-     "a subset / not a subset",
-     "Relation between TWO SETS: integers is a subset of rational numbers."
-    ]
-   ],
-   "items": [
-    {
-     "label": "Example 1",
-     "question": "Write in the form a/b: −3, −0.31, 3 2/5, −2.5",
-     "steps": [
-      "3 2/5 = (3 × 5 + 2)/5 = 17/5"
-     ],
-     "answer": "−3/1, −31/100, 17/5, −25/10"
-    },
-    {
-     "label": "Example 2",
-     "question": "Choose the best subset: 0.785, 3/7, −428, −3, 0, 4, 17,273, 4.8",
-     "answer": "rational, rational, integer, integer, natural, counting, counting, rational"
-    },
-    {
-     "label": "Example 3",
-     "question": "Complete: a) −3/7 ___ to integers  b) set of natural numbers is ___ of set of integers  c) set of rational numbers is ___ of natural numbers",
-     "answer": "a) does not belong  b) a subset  c) not a subset"
-    }
-   ],
-   "tricks": [
-    "\"Best subset\" = the SMALLEST circle the number fits in: 5 → counting, 0 → natural, −4 → integer, −2/3 → rational.",
-    "Use belongs with a NUMBER, use subset with a SET.",
-    "−25/10 = 25/−10 = −(25/10): the negative sign can go up, down or in front."
-   ],
-   "note": "Every integer is rational, but not every rational number is an integer.",
-   "part": 1
-  },
-  {
-   "id": "u2-l3-b",
-   "unit": "u2",
-   "lesson": "Lesson 3",
-   "title": "Rational Numbers on the Number Line",
-   "rule": "Positive rational numbers are to the right of 0; negative ones are to the left. To graph 3/4, divide the space between 0 and 1 into 4 equal parts and count 3 parts.",
-   "items": [
-    {
-     "label": "Example 1",
-     "question": "Where is 3/4 on the number line?",
-     "steps": [
-      "3/4 is between 0 and 1.",
-      "Split 0 to 1 into 4 equal parts: 0/4, 1/4, 2/4, 3/4, 4/4."
-     ],
-     "answer": "At the third mark after 0."
-    },
-    {
-     "label": "Example 2",
-     "question": "Graph 1.5, 1/2, 2/8, −2.5, −3 1/4 on one number line.",
-     "steps": [
-      "2/8 = 1/4 (simplify first).",
-      "−2.5 is halfway between −3 and −2; −3 1/4 is just left of −3."
-     ],
-     "answer": "Order left to right: −3 1/4, −2.5, 1/4, 1/2, 1.5"
-    }
-   ],
-   "tricks": [
-    "−3/4 and 3/4 are at the same distance from 0 on different sides — they are opposites.",
-    "For a negative mixed number like −1 1/2, go 1 to the left, then ½ more to the left.",
-    "Simplify or change to decimals before graphing: 2/8 = 0.25."
-   ],
-   "note": "Every rational number has exactly one point on the number line.",
-   "part": 1
-  },
-  {
-   "id": "u2-l4",
-   "unit": "u2",
-   "lesson": "Lesson 4",
-   "title": "Comparing and Ordering Rational Numbers",
-   "rule": "1) Positive > negative. 2) Same denominator → bigger numerator wins. 3) Same numerator → bigger denominator is SMALLER. 4) Different → use the L.C.M to make common denominators, then compare numerators.",
-   "items": [
-    {
-     "label": "Example 1",
-     "question": "Compare: 5/12 ☐ 7/12,  1/4 ☐ −5/6,  11/12 ☐ 11/15,  6/12 ☐ 2/3,  3.2 ☐ 11/2,  −4 ☐ −4.1",
-     "steps": [
-      "2/3 = 8/12 → 6/12 < 8/12",
-      "11/2 = 5.5 → 3.2 < 5.5"
-     ],
-     "answer": "< , > , > , < , < , >"
-    },
-    {
-     "label": "Example 2",
-     "question": "Arrange ascending: −2/3, 3/4, −7/12, 5/6, −1",
-     "steps": [
-      "L.C.M = 12: −8/12, 9/12, −7/12, 10/12, −12/12"
-     ],
-     "answer": "−1, −2/3, −7/12, 3/4, 5/6"
-    },
-    {
-     "label": "Example 3",
-     "question": "Find a rational number between 1/2 and 5/7, and between −2.1 and −2.",
-     "steps": [
-      "1/2 = 7/14 and 5/7 = 10/14 → 8/14 is between.",
-      "−2 = −2.00 and −2.1 = −2.10 → −2.01 is between."
-     ],
-     "answer": "8/14 (or 9/14) ; −2.01 (other answers are possible)"
-    }
-   ],
-   "tricks": [
-    "Compare with 1: 65/63 > 1 and 57/59 < 1, so 65/63 > 57/59.",
-    "Density: between ANY two rational numbers there are infinitely many rational numbers. Between two consecutive integers there is NO integer.",
-    "Decimals: add zeros to make equal length: 3.7 = 3.70 > 3.15."
-   ],
-   "note": "With negatives the order flips: −1/4 > −2/9? Change: −9/36 and −8/36 → −1/4 < −2/9.",
-   "part": 1
-  },
-  {
-   "id": "u2-l5",
-   "unit": "u2",
-   "lesson": "Lessons 5 & 6",
-   "title": "Absolute Value",
-   "rule": "The absolute value of a number is its distance from 0. Distance is never negative, so |5| = 5 and |−5| = 5.",
-   "items": [
-    {
-     "label": "Example 1",
-     "question": "Find: |−4|, −|4|, |0|, −|−3/7|, |−3| + |5|, |−2| + |−7|, |−6| − |6|, |−3| × |−2|, |−10| ÷ |2|",
-     "answer": "4, −4, 0, −3/7, 8, 9, 0, 6, 5"
-    },
-    {
-     "label": "Example 2",
-     "question": "Find x: |x| = 5, |x| = 10, |x| = 0, |−7| = x",
-     "answer": "x = 5 or −5 ; x = 10 or −10 ; x = 0 ; x = 7"
-    },
-    {
-     "label": "Example 3",
-     "question": "Compare: |−2| ☐ |−7|,  |−2.8| ☐ −2.8,  3 1/4 ☐ |−3 2/3|,  |−4.25| ☐ 4.3",
-     "steps": [
-      "Find each absolute value first, then compare."
-     ],
-     "answer": "< , > , < , <"
-    }
-   ],
-   "tricks": [
-    "Watch the minus OUTSIDE the bars: −|4| = −4 but |−4| = 4.",
-    "|x| = 6 has TWO answers: 6 and −6. Only |x| = 0 has one answer.",
-    "Opposites have the SAME absolute value: |−11| = |11|. The farther from 0, the greater the absolute value."
-   ],
-   "note": "−22 °C is colder than −5 °C, even though |−22| > |−5|. Absolute value measures distance, not size.",
-   "part": 1
-  },
-  {
-   "id": "u3-l1",
-   "unit": "u3",
-   "lesson": "Lessons 1 & 2",
-   "title": "Creating Mathematical Expressions",
-   "rule": "When a value changes, replace it with a letter (a variable). Burgers cost 50 L.E. each + 20 L.E. delivery → cost = 50n + 20, where n is the number of sandwiches.",
-   "words": [
-    [
-     "Variable",
-     "A letter that stands for a value that can change (n, x, y …)."
-    ],
-    [
-     "Numeric expression",
-     "Only numbers and operations: 3 + 6.8 − 4, 4 (5 − 2)"
-    ],
-    [
-     "Algebraic expression",
-     "Numbers, operations AND variables: 1/5 m − 6, 2x + 3y"
-    ]
-   ],
-   "items": [
-    {
-     "label": "Example 1",
-     "question": "Mona saves 10 L.E. daily, and her father gave her 25 L.E. on the first day. Write an expression for her money after n days.",
-     "steps": [
-      "Always the same: 10 (daily) and 25 (gift).",
-      "Varies: the number of days and the total money."
-     ],
-     "answer": "10n + 25"
-    },
-    {
-     "label": "Example 2",
-     "question": "A ticket is 50 L.E. and each game is 20 L.E. Write the cost for g games, then find the cost of 5 games.",
-     "steps": [
-      "Cost = 20g + 50",
-      "20 × 5 + 50 = 100 + 50"
-     ],
-     "answer": "20g + 50 ; 150 L.E."
-    },
-    {
-     "label": "Example 3",
-     "question": "Sort: 12 + 5.8, 3k + 4, 8 (1.4 − n), 2 (3) + 5",
-     "answer": "numeric, algebraic, algebraic, numeric"
-    }
-   ],
-   "tricks": [
-    "The value that changes goes WITH the variable (×n); the fixed one-time value is added alone.",
-    "Half the price → p ÷ 2 or 1/2 p.",
-    "2 (3) means 2 × 3 → no letter → numeric."
-   ],
-   "note": "50n means 50 × n. We do not write the × sign between a number and a variable.",
-   "part": 1
-  },
-  {
-   "id": "u3-l2",
-   "unit": "u3",
-   "lesson": "Lessons 1 & 2",
-   "title": "Terms, Coefficients, Constants and Like Terms",
-   "rule": "Terms are the parts of an expression separated by + or −. In 2 − 5x + 3/4 + 7x the terms are 2, −5x, 3/4 and 7x.",
-   "words": [
-    [
-     "Constant",
-     "A term with no variable: 2 and 3/4."
-    ],
-    [
-     "Coefficient",
-     "The number multiplied by the variable: −5 and 7."
-    ],
-    [
-     "Like terms",
-     "Terms with the SAME variable (−5x, 7x), or numbers only (2, 3/4)."
-    ]
-   ],
-   "items": [
-    {
-     "label": "Example 1",
-     "question": "Expression 5a − 3b + 4: number of terms, like terms, constants, coefficients?",
-     "answer": "3 terms ; no like terms ; constant 4 ; coefficients 5 and −3"
-    },
-    {
-     "label": "Example 2",
-     "question": "Expression k + k + 6k: terms, like terms, coefficients?",
-     "answer": "3 terms ; all like (k, k, 6k) ; coefficients 1, 1, 6 ; no constant"
-    },
-    {
-     "label": "Example 3",
-     "question": "Expression m + 3 + 2n + 2: terms and like terms?",
-     "answer": "4 terms ; like terms: 3 and 2"
-    }
-   ],
-   "tricks": [
-    "A variable alone has coefficient 1: x = 1x.",
-    "Take the SIGN with the term: in 3 − b + 5 the coefficient of b is −1.",
-    "4x and 4y are NOT like terms (different letters). 4 and 7 are like terms (both constants)."
-   ],
-   "note": "A single number like 4 or a single letter like z is an expression with ONE term.",
-   "part": 1
-  },
-  {
-   "id": "u3-l3-a",
-   "unit": "u3",
-   "lesson": "Lesson 3",
-   "title": "Writing Algebraic Expressions — Key Words",
-   "rule": "Learn the key words, then translate word by word into symbols.",
-   "words": [
-    [
-     "Addition (+)",
-     "add, sum, plus, increased by, more than, exceeds, total, in all, gain, deposit"
-    ],
-    [
-     "Subtraction (−)",
-     "subtract, difference, minus, decreased by, less than, fewer, diminished by, take away, withdraw, reduced by"
-    ],
-    [
-     "Multiplication (×)",
-     "multiplied by, product, times, double / twice (×2), triple / thrice (×3)"
-    ],
-    [
-     "Division (÷)",
-     "divide, quotient, per, divided equally, split into, half (÷2), third (÷3)"
-    ]
-   ],
-   "items": [
-    {
-     "label": "Example 1",
-     "question": "Write in words (two ways): x + 4, m − 5, 2y, z ÷ 3, kk",
-     "answer": "the sum of x and 4 / x increased by 4 ; m decreased by 5 / 5 less than m ; the product of 2 and y / 2 times y ; z divided by 3 / the quotient of z by 3 ; a number multiplied by itself"
-    },
-    {
-     "label": "Example 2",
-     "question": "Write in words: 5 + 4n, 2n − 8, 4 (n − 7)",
-     "answer": "the sum of 5 and four times n ; 8 less than twice n ; four times the difference between n and 7"
-    }
-   ],
-   "tricks": [
-    "\"less than\" and \"subtracted from\" FLIP the order: 5 less than x = x − 5 (NOT 5 − x).",
-    "\"a number multiplied by itself\" = x × x (written xx).",
-    "\"Four times THE DIFFERENCE / THE SUM\" → use brackets: 4 (n − 7)."
-   ],
-   "note": "Read the whole sentence first, then decide the order of the numbers.",
-   "part": 1
-  },
-  {
-   "id": "u3-l3-b",
-   "unit": "u3",
-   "lesson": "Lesson 3",
-   "title": "Writing Algebraic Expressions — Words to Symbols",
-   "rule": "How to solve: 1) give the unknown number a letter, 2) use parentheses when a SUM or DIFFERENCE is multiplied or divided.",
-   "items": [
-    {
-     "label": "Example 1",
-     "question": "Write: a) twice a number less than 10  b) three times the sum of a number and 4  c) a number divided by 5 is increased by 8",
-     "answer": "a) 10 − 2x  b) 3 (a + 4)  c) k/5 + 8"
-    },
-    {
-     "label": "Example 2",
-     "question": "Write: a) Roudy deposits 5,000 pounds in her account (balance y)  b) 7 boxes, each with x pens  c) perimeter of a rectangle, length 10 cm and width w cm  d) money n shared among 5 people, then each spends 27 pounds",
-     "answer": "a) y + 5000  b) 7x  c) 2 (10 + w)  d) n/5 − 27"
-    },
-    {
-     "label": "Example 3",
-     "question": "Write: add 3 to double a number ; half the product of a number by itself ; 17 less the product of a number by itself",
-     "answer": "2x + 3 ; (x × x) ÷ 2 ; 17 − xx"
-    }
-   ],
-   "tricks": [
-    "\"The sum of 2 and 5 multiplied by x\" = (2 + 5) x, but \"the sum of 5 and 2 times x\" = 5 + 2x.",
-    "\"Multiply x by 14 and divide the product by 2\" = 14x ÷ 2.",
-    "\"7 decreased by 5x\" = 7 − 5x ; \"the product of 3 and the sum of y and 4\" = 3 (y + 4)."
-   ],
-   "note": "Check by choosing a number: if x = 2, does your expression give the same answer as the sentence?",
-   "part": 1
-  },
-  {
-   "id": "u3-l4-a",
-   "part": 2,
-   "unit": "u3",
-   "lesson": "Lessons 4–6",
-   "title": "Powers and Exponents",
-   "rule": "A power is repeated multiplication of the same factor. In 5^{6}, 5 is the base and 6 is the exponent: 5^{6} = 5 × 5 × 5 × 5 × 5 × 5. The second power is a square; the third power is a cube.",
-   "words": [
-    [
-     "Base",
-     "The repeated factor (in 3^{4}, the base is 3)."
-    ],
-    [
-     "Exponent",
-     "How many times the base is used as a factor (3^{4} has exponent 4)."
-    ],
-    [
-     "Expanded form",
-     "Write every repeated factor (3 × 3 × 3 × 3)."
-    ],
-    [
-     "Simplest form",
-     "Evaluate the power (3^{4} = 81)."
-    ]
-   ],
-   "items": [
-    {
-     "label": "Example 1",
-     "question": "Write 2 × 2 × 2 in exponential and simplest forms.",
-     "steps": [
-      "The base 2 is repeated 3 times, so the exponent is 3.",
-      "Evaluate: 2 × 2 × 2 = 8."
-     ],
-     "answer": "2^{3} ; simplest form 8"
-    },
-    {
-     "label": "Example 2",
-     "question": "For 7^{2}, name the base and exponent, then find its value.",
-     "steps": [
-      "Base = 7 and exponent = 2.",
-      "7^{2} = 7 × 7 = 49."
-     ],
-     "answer": "Base 7; exponent 2; value 49 (7 squared)"
-    },
-    {
-     "label": "Example 3",
-     "question": "Write 10 × 10 × 10 × 10 in exponential form, then find its value.",
-     "steps": [
-      "The base 10 is used 4 times: exponent 4.",
-      "10 × 10 × 10 × 10 = 10,000."
-     ],
-     "answer": "10^{4} = 10,000"
-    }
-   ],
-   "tricks": [
-    "The exponent counts factors: 4^{3} means three 4s multiplied, not 4 × 3.",
-    "Any number to the first power is itself; 1 to any power is 1.",
-    "“Squared” means power 2; “cubed” means power 3."
-   ],
-   "note": "The same base can be any number: in 10^{5} the base 10 is written 5 times."
-  },
-  {
-   "id": "u3-l4-b",
-   "part": 2,
-   "unit": "u3",
-   "lesson": "Lessons 4–6",
-   "title": "Order of Operations",
-   "rule": "Use this order to get one correct answer: 1) operations inside parentheses; 2) exponents; 3) multiplication and division from left to right; 4) addition and subtraction from left to right.",
-   "items": [
-    {
-     "label": "Example 1",
-     "question": "Simplify 12 + (9 − 2) × 3^{2}.",
-     "steps": [
-      "Parentheses: 12 + 7 × 3^{2}.",
-      "Exponent: 12 + 7 × 9.",
-      "Multiply: 12 + 63.",
-      "Add: 75."
-     ],
-     "answer": "75"
-    },
-    {
-     "label": "Example 2",
-     "question": "Simplify 40 ÷ 8 × (7 − 5)^{2} + 10.",
-     "steps": [
-      "Parentheses, then exponent: 40 ÷ 8 × 4 + 10.",
-      "Divide and multiply left to right: 5 × 4 + 10 = 20 + 10.",
-      "Add."
-     ],
-     "answer": "30"
-    },
-    {
-     "label": "Example 3",
-     "question": "Simplify 30 − [(12 − 3^{2})^{3} − 25] × 5.",
-     "steps": [
-      "Inner exponent: 3^{2} = 9, then parentheses: 12 − 9 = 3.",
-      "Cube and simplify the bracket: 30 − [3^{3} − 25] × 5 = 30 − [27 − 25] × 5.",
-      "Subtract in brackets, multiply, then subtract: 30 − 2 × 5."
-     ],
-     "answer": "20"
-    }
-   ],
-   "tricks": [
-    "Do not add or subtract before multiplication or division.",
-    "For operations at the same level, move left to right: 24 ÷ 6 × 2 = 4 × 2 = 8.",
-    "Finish the parentheses before using the outside operations."
-   ],
-   "note": "Write each step on its own line — most lost marks come from doing two levels at once."
-  },
-  {
-   "id": "u3-l4-c",
-   "part": 2,
-   "unit": "u3",
-   "lesson": "Lessons 4–6",
-   "title": "Substitute and Evaluate",
-   "rule": "To evaluate an expression, replace the variable with its given value, use parentheses around a substituted number, then follow the order of operations. A fixed fee is added once; a per-item or per-unit cost is multiplied by the variable.",
-   "items": [
-    {
-     "label": "Example 1",
-     "question": "Mazen charges 120 L.E. per meter of cloth and 40 L.E. for delivery. Find the cost for 8 meters.",
-     "steps": [
-      "Let n be the number of meters: cost = 120n + 40.",
-      "Substitute n = 8: 120 × 8 + 40 = 960 + 40."
-     ],
-     "answer": "1,000 L.E."
-    },
-    {
-     "label": "Example 2",
-     "question": "Evaluate 5k^{2} + 3(8 − 2) ÷ 6 for k = 4.",
-     "steps": [
-      "Substitute: 5 × 4^{2} + 3(8 − 2) ÷ 6.",
-      "Parentheses and powers: 5 × 16 + 3 × 6 ÷ 6.",
-      "Multiply/divide left to right: 80 + 18 ÷ 6 = 80 + 3.",
-      "Add."
-     ],
-     "answer": "83"
-    },
-    {
-     "label": "Example 3",
-     "question": "Malek gets 30 L.E. off; pizzas cost 80 L.E. each. Find the price of 5 pizzas after the coupon.",
-     "steps": [
-      "Let x be the number of pizzas: cost = 80x − 30.",
-      "Substitute x = 5: 80 × 5 − 30 = 400 − 30."
-     ],
-     "answer": "370 L.E."
-    },
-    {
-     "label": "Example 4",
-     "question": "A car park charges 10 L.E. entry plus 15 L.E. per hour. Find the cost for 7 hours.",
-     "steps": [
-      "Let h be hours: cost = 10 + 15h.",
-      "Substitute h = 7: 10 + 15 × 7 = 10 + 105."
-     ],
-     "answer": "115 L.E."
-    }
-   ],
-   "tricks": [
-    "Translate “per” into multiplication, then add or subtract the one-time fee or discount.",
-    "Keep the substitution grouped: if x = −2, replace x with (−2).",
-    "With a discount, subtract it from the total item cost, not from the number of items."
-   ],
-   "note": "16 − x at x = 5 → 16 − 5 = 11: always substitute the value exactly where the variable is."
-  },
-  {
-   "id": "u3-l7",
-   "part": 2,
-   "unit": "u3",
-   "lesson": "Lesson 7",
-   "title": "Equivalent Expressions",
-   "rule": "Equivalent expressions have the same value for every value of the variable. Check by simplifying both expressions, or compare their values after substituting. One value giving different results proves they are not equivalent; matching at one or two values alone does not prove equivalence.",
-   "items": [
-    {
-     "label": "Example 1",
-     "question": "Are 2x + 10 and 2(x + 1) + 8 equivalent?",
-     "steps": [
-      "Simplify the second: 2(x + 1) + 8 = 2x + 2 + 8 = 2x + 10.",
-      "Both expressions simplify to the same form."
-     ],
-     "answer": "Yes, they are equivalent."
-    },
-    {
-     "label": "Example 2",
-     "question": "Check 3x + 1 and 2x + 5 at x = 3. Are they equivalent?",
-     "steps": [
-      "First: 3 × 3 + 1 = 10.",
-      "Second: 2 × 3 + 5 = 11. The values differ."
-     ],
-     "answer": "Not equivalent; one counterexample is enough."
-    },
-    {
-     "label": "Example 3",
-     "question": "Are 5x + 3 and 3(x + 4) − 5 equivalent?",
-     "steps": [
-      "Simplify: 3(x + 4) − 5 = 3x + 12 − 5 = 3x + 7.",
-      "At x = 3: first = 18; second = 16. Not equal.",
-      "At x = 2 they both equal 13, but that single match is not enough."
-     ],
-     "answer": "No, they are not equivalent."
-    },
-    {
-     "label": "Example 4",
-     "question": "Are 7 + 3x and 4 + 3(x + 1) equivalent?",
-     "steps": [
-      "Simplify: 4 + 3(x + 1) = 4 + 3x + 3 = 3x + 7.",
-      "The first is also 3x + 7."
-     ],
-     "answer": "Yes, they are equivalent."
-    }
-   ],
-   "tricks": [
-    "Distribute the multiplier to every term inside parentheses: 3(x + 4) = 3x + 12.",
-    "To disprove equivalence, find a single substitution giving different results.",
-    "“They matched for x = 2” does not mean “they always match.” Simplify to prove equivalence."
-   ],
-   "note": "x + x + x and 3x are equivalent: the same value for every x."
-  },
-  {
-   "id": "u4-l1-a",
-   "part": 2,
-   "unit": "u4",
-   "lesson": "Lesson 1",
-   "title": "Equations and Solutions",
-   "rule": "An equation is a mathematical sentence with an equal sign (=), showing two expressions have the same value. Think of it as a balanced scale: both sides must stay equal. Solving means finding the value of the unknown that makes the equation true.",
-   "words": [
-    [
-     "Variable",
-     "A letter standing for an unknown number (x in x + 2 = 5)."
-    ],
-    [
-     "Solution",
-     "A value that makes an equation true when substituted (3 solves x + 2 = 5)."
-    ],
-    [
-     "Satisfies",
-     "Makes both sides equal when substituted into the equation."
-    ]
-   ],
-   "items": [
-    {
-     "label": "Example 1",
-     "question": "A balanced scale has 5 kg on one side and a watermelon plus 2 kg on the other. Write an equation and find the watermelon’s weight.",
-     "steps": [
-      "Let x be the watermelon’s weight in kg.",
-      "Balance gives x + 2 = 5.",
-      "Subtract 2 from both sides."
-     ],
-     "answer": "x + 2 = 5 ; x = 3 kg"
-    },
-    {
-     "label": "Example 2",
-     "question": "Is 2 a solution of x + 6 = 8?",
-     "steps": [
-      "Substitute 2 for x: 2 + 6 = 8.",
-      "The statement is true, so 2 satisfies the equation."
-     ],
-     "answer": "Yes, the solution is x = 2."
-    },
-    {
-     "label": "Example 3",
-     "question": "Is 4 a solution of 12 = 3x? Is 5?",
-     "steps": [
-      "Substitute 4: 3 × 4 = 12 ✓.",
-      "Substitute 5: 3 × 5 = 15 ✗."
-     ],
-     "answer": "Yes, 4 is a solution; 5 is not."
-    }
-   ],
-   "tricks": [
-    "An equation has an equal sign; an inequality uses <, >, ≤ or ≥.",
-    "To check a proposed solution, substitute it and compare both sides.",
-    "A balanced-scale model means the left-side total equals the right-side total."
-   ],
-   "note": "Only the value that makes BOTH sides equal is a solution — test it, do not guess."
-  },
-  {
-   "id": "u4-l1-b",
-   "part": 2,
-   "unit": "u4",
-   "lesson": "Lesson 1",
-   "title": "Solve by Adding or Subtracting",
-   "rule": "Add or subtract the same amount on both sides of an equation to keep it balanced. Undo the operation next to the variable, then check your answer by substitution.",
-   "items": [
-    {
-     "label": "Example 1",
-     "question": "Solve x − 3 = 5.",
-     "steps": [
-      "Add 3 to both sides: x − 3 + 3 = 5 + 3.",
-      "Simplify: x = 8.",
-      "Check: 8 − 3 = 5."
-     ],
-     "answer": "x = 8"
-    },
-    {
-     "label": "Example 2",
-     "question": "Solve x + 2 = 4.",
-     "steps": [
-      "Subtract 2 from both sides: x + 2 − 2 = 4 − 2.",
-      "Simplify: x = 2.",
-      "Check: 2 + 2 = 4."
-     ],
-     "answer": "x = 2"
-    },
-    {
-     "label": "Example 3",
-     "question": "Solve x − 5 = 2.",
-     "steps": [
-      "Add 5 to both sides.",
-      "x = 2 + 5 = 7.",
-      "Check: 7 − 5 = 2."
-     ],
-     "answer": "x = 7"
-    },
-    {
-     "label": "Example 4",
-     "question": "Solve x + 1 = 5.",
-     "steps": [
-      "Subtract 1 from both sides.",
-      "x = 5 − 1 = 4.",
-      "Check: 4 + 1 = 5."
-     ],
-     "answer": "x = 4"
-    }
-   ],
-   "tricks": [
-    "Undo subtraction by adding; undo addition by subtracting.",
-    "Whatever you do to one side, do exactly the same to the other side.",
-    "Do not stop until the variable stands alone; always check in the original equation."
-   ],
-   "note": "x − 10 = 5 → x = 15: the variable must end alone on one side."
-  },
-  {
-   "id": "u4-l2-a",
-   "part": 2,
-   "unit": "u4",
-   "lesson": "Lessons 2 & 3",
-   "title": "Inequalities in Everyday Life",
-   "rule": "An inequality compares values that are not necessarily equal. Read > as “greater than,” < as “less than,” ≥ as “greater than or equal to,” and ≤ as “less than or equal to.” A solution is any value that makes it true.",
-   "words": [
-    [
-     "At most",
-     "Less than or equal to (≤ 50 km/hr means no more than 50)."
-    ],
-    [
-     "At least",
-     "Greater than or equal to (≥ 120 cm means 120 cm or taller)."
-    ],
-    [
-     "Strict",
-     "< or > does not include the endpoint (x > 75 excludes 75)."
-    ]
-   ],
-   "items": [
-    {
-     "label": "Example 1",
-     "question": "A road speed limit is 50 km/hr. Write the inequality and decide whether 23, 50 and 55 km/hr are allowed.",
-     "steps": [
-      "“50 or less” means s ≤ 50.",
-      "23 and 50 satisfy it; 55 is greater than 50."
-     ],
-     "answer": "s ≤ 50 ; 23 and 50 km/hr are allowed."
-    },
-    {
-     "label": "Example 2",
-     "question": "A ride requires a height of at least 120 cm. Write an inequality and give one acceptable and one unacceptable height.",
-     "steps": [
-      "“At least 120” includes 120, so h ≥ 120.",
-      "140 is at least 120; 115 is below 120."
-     ],
-     "answer": "h ≥ 120 ; acceptable 140 cm, unacceptable 115 cm."
-    }
-   ],
-   "tricks": [
-    "“No more than,” “maximum,” and “at most” include the limit: use ≤.",
-    "“At least,” “minimum,” and “or more” include the limit: use ≥.",
-    "Check the endpoint carefully: “more than” excludes it; “or equal to” includes it."
-   ],
-   "note": "An inequality usually has MANY solutions; an equation usually has one."
-  },
-  {
-   "id": "u4-l2-b",
-   "part": 2,
-   "unit": "u4",
-   "lesson": "Lessons 2 & 3",
-   "title": "Graph Inequalities on a Number Line",
-   "rule": "Mark the boundary number. Use an open circle for < or > (endpoint not included), and a closed circle for ≤ or ≥ (endpoint included). Shade or draw the arrow toward the solutions: left for less than, right for greater than.",
-   "items": [
-    {
-     "label": "Example 1",
-     "question": "Graph x > −2 on the integers. Name three solutions.",
-     "steps": [
-      "Use an open circle at −2: it is not included.",
-      "Solutions go to the right: −1, 0, 1, and onward."
-     ],
-     "answer": "−1, 0, 1 (and all greater integers)"
-    },
-    {
-     "label": "Example 2",
-     "question": "Graph x ≤ −1 on the integers. Name three solutions.",
-     "steps": [
-      "Use a closed circle at −1: it is included.",
-      "Solutions go left: −1, −2, −3, and onward."
-     ],
-     "answer": "−1, −2, −3 (and all smaller integers)"
-    }
-   ],
-   "tricks": [
-    "Open circle = strict sign (< or >); filled circle = equality is allowed (≤ or ≥).",
-    "Numbers increase to the right and decrease to the left.",
-    "On the integers, x > −2 starts at −1; do not include −2."
-   ],
-   "note": "The arrow points the way the solutions go, not the way the sign opens."
-  },
-  {
-   "id": "u4-l2-c",
-   "part": 2,
-   "unit": "u4",
-   "lesson": "Lessons 2 & 3",
-   "title": "Read and Describe Inequality Graphs",
-   "rule": "Read a graph in two parts: the circle tells whether the boundary is included, and the arrow tells which direction the solutions continue. A graph may represent infinitely many integer or rational-number solutions.",
-   "items": [
-    {
-     "label": "Example 1",
-     "question": "A number line has a closed circle at 3 and an arrow to the right. Write the inequality and list three integer solutions.",
-     "steps": [
-      "Closed circle includes 3.",
-      "Rightward values are greater than 3."
-     ],
-     "answer": "x ≥ 3 ; 3, 4, 5"
-    },
-    {
-     "label": "Example 2",
-     "question": "A sale sign says prices start at 75 L.E. Write an inequality and give three possible prices.",
-     "steps": [
-      "“Start at” includes 75 and any greater price.",
-      "Use p ≥ 75."
-     ],
-     "answer": "p ≥ 75 ; e.g. 75, 80, 100 L.E."
-    },
-    {
-     "label": "Example 3",
-     "question": "Which of these are solutions of x < 9: −9, 10, 0, 2.4, 9.1, −0.9?",
-     "steps": [
-      "Keep only values strictly less than 9.",
-      "9 itself would not count; none of these equals 9."
-     ],
-     "answer": "−9, 0, 2.4, −0.9"
-    },
-    {
-     "label": "Example 4",
-     "question": "A passenger has a maximum weight of 32 kg. Would 30, 32, 35 or 38 kg satisfy the limit?",
-     "steps": [
-      "Maximum 32 means w ≤ 32.",
-      "Values no greater than 32 are allowed."
-     ],
-     "answer": "30 kg and 32 kg"
-    }
-   ],
-   "tricks": [
-    "“Lower than” and “less than” point left; “higher than” and “more than” point right.",
-    "When a question asks for solutions, test each value in the original inequality.",
-    "For a limit described as maximum or minimum, equality is allowed unless the wording says otherwise."
-   ],
-   "note": "x < 9 has infinitely many solutions, not only whole numbers — 2.4 and −0.9 count too."
-  },
-  {
-   "id": "u5-l1-a",
-   "part": 2,
-   "unit": "u5",
-   "lesson": "Lessons 1 & 2",
-   "title": "Which Variable Depends?",
-   "rule": "A variable represents a quantity. The independent variable is the input you choose; the dependent variable is the output that changes because of it. Say: “___ depends on ___” to identify them. In P = 4S, perimeter P depends on side length S.",
-   "words": [
-    [
-     "Independent",
-     "The input or starting quantity (number of packs)."
-    ],
-    [
-     "Dependent",
-     "The output determined by the input (total biscuits)."
-    ],
-    [
-     "Dependency",
-     "A relationship where one quantity depends on another (perimeter depends on side length)."
-    ]
-   ],
-   "items": [
-    {
-     "label": "Example 1",
-     "question": "A square has side length S and perimeter P = 4S. Identify each variable.",
-     "steps": [
-      "Choose the side length; it is the input.",
-      "The perimeter changes when the side length changes."
-     ],
-     "answer": "S is independent; P is dependent."
-    },
-    {
-     "label": "Example 2",
-     "question": "A relation is s = 5t: s is the total biscuits and t is the number of packs. What do 5, s and t represent?",
-     "steps": [
-      "Each pack has 5 biscuits.",
-      "The number of packs is chosen; the total depends on it."
-     ],
-     "answer": "5 biscuits per pack; s total biscuits; t packs. t independent, s dependent."
-    }
-   ],
-   "tricks": [
-    "Ask “Which quantity changes as a result of the other?” That is the dependent variable.",
-    "In a cost situation, number bought is usually independent; total cost is dependent.",
-    "A fixed rate or amount (such as 5 biscuits per pack) is a constant, not a variable."
-   ],
-   "note": "Time or number of items is usually the independent variable; the money, distance or total is dependent."
-  },
-  {
-   "id": "u5-l1-b",
-   "part": 2,
-   "unit": "u5",
-   "lesson": "Lessons 1 & 2",
-   "title": "Turn Words into Equations",
-   "rule": "Translate the operation first: “more than” / “increased by” means add; “times” / “product” means multiply. Keep the order clear, then write the equals statement. “Twice b added to 3 equals g” becomes 2b + 3 = g.",
-   "items": [
-    {
-     "label": "Example 1",
-     "question": "Write: 25 more than p equals r.",
-     "steps": [
-      "“25 more than p” is p + 25.",
-      "“equals r” means set it equal to r."
-     ],
-     "answer": "p + 25 = r"
-    },
-    {
-     "label": "Example 2",
-     "question": "Write: k equals the product of 5 and t, increased by 7.",
-     "steps": [
-      "Product of 5 and t is 5t.",
-      "Increase that result by 7."
-     ],
-     "answer": "k = 5t + 7"
-    },
-    {
-     "label": "Example 3",
-     "question": "For t = 6r, r is rides and t is total tickets. Identify the variables and constant.",
-     "steps": [
-      "r is the chosen number of rides.",
-      "Each ride needs 6 tickets; t changes with r."
-     ],
-     "answer": "r independent; t dependent; 6 tickets per ride."
-    },
-    {
-     "label": "Example 4",
-     "question": "A book costs £50. Write the total price Y for X books and identify the variables.",
-     "steps": [
-      "Multiply number of books by price per book."
-     ],
-     "answer": "Y = 50X ; X is independent and Y is dependent."
-    }
-   ],
-   "tricks": [
-    "“Six times p added to 12” means 6p + 12 — not 6(p + 12).",
-    "“4 increased by L equals q” is 4 + L = q.",
-    "In an equation defining a relationship, the variable written as the result is often dependent; check what it depends on."
-   ],
-   "note": "“Twice b added to 3” = 3 + 2b: the phrase after “added to” comes first."
-  },
-  {
-   "id": "u5-l3-a",
-   "part": 2,
-   "unit": "u5",
-   "lesson": "Lessons 3 & 4",
-   "title": "Substitute, Table, and Ordered Pairs",
-   "rule": "Substitute each chosen input into the equation and simplify to get its output. Record input and output in a table; each matching pair is written (x, y), with the input first and output second.",
-   "items": [
-    {
-     "label": "Example 1",
-     "question": "For y = 2x + 1, find the outputs when x = 0, 1, 2.",
-     "steps": [
-      "x = 0: y = 2(0) + 1 = 1.",
-      "x = 1: y = 3; x = 2: y = 5.",
-      "Table: x 0, 1, 2 → y 1, 3, 5."
-     ],
-     "answer": "(0, 1), (1, 3), (2, 5)"
-    },
-    {
-     "label": "Example 2",
-     "question": "Find y when y = 3x + 2 and x = 4. Write the ordered pair.",
-     "steps": [
-      "Substitute 4 for x: y = 3(4) + 2.",
-      "Multiply first, then add."
-     ],
-     "answer": "y = 14 ; ordered pair (4, 14)"
-    },
-    {
-     "label": "Example 3",
-     "question": "Use y = x + 5 to complete the missing values for x = 1, 2, 3, 4.",
-     "steps": [
-      "Substitute each x: outputs are 6, 7, 8, 9.",
-      "Match each input with its output."
-     ],
-     "answer": "(1, 6), (2, 7), (3, 8), (4, 9)"
-    }
-   ],
-   "tricks": [
-    "Follow order of operations: multiply before adding or subtracting.",
-    "Ordered pairs are always (input, output), or (x, y) — never reverse them.",
-    "When an output is missing, substitute the given input; when an input is missing, solve the equation."
-   ],
-   "note": "A table of an equation lists inputs in order, usually starting from 0 or 1."
-  },
-  {
-   "id": "u5-l3-b",
-   "part": 2,
-   "unit": "u5",
-   "lesson": "Lessons 3 & 4",
-   "title": "Plot the Relationship",
-   "rule": "On a coordinate plane, the horizontal x-axis shows the independent input and the vertical y-axis shows the dependent output. Plot each ordered pair (x, y): move right x units, then up y units. Mark all points from the table.",
-   "items": [
-    {
-     "label": "Example 1",
-     "question": "Graph y = 2x + 3 for x = 1, 2, 3.",
-     "steps": [
-      "Substitute: outputs are 5, 7, 9.",
-      "Plot (1, 5), (2, 7), (3, 9)."
-     ],
-     "answer": "Points (1, 5), (2, 7), (3, 9)"
-    },
-    {
-     "label": "Example 2",
-     "question": "A table shows x: 5, 7, 8, 10 and y: 2, 4, 5, 7. Find the equation.",
-     "steps": [
-      "Compare each pair: y is always 3 less than x."
-     ],
-     "answer": "y = x − 3"
-    },
-    {
-     "label": "Example 3",
-     "question": "Plot the relationship y = 2x + 1 using x = 0, 1, 2.",
-     "steps": [
-      "Make the pairs: (0, 1), (1, 3), (2, 5).",
-      "Mark each point: right x, then up y."
-     ],
-     "answer": "Plot (0, 1), (1, 3), and (2, 5); connect the points when showing the linear relationship."
-    }
-   ],
-   "tricks": [
-    "The first coordinate belongs on the x-axis; the second belongs on the y-axis.",
-    "Check a proposed equation against every table pair, not just one.",
-    "Use equal scales on the graph and label both axes."
-   ],
-   "note": "Points of y = 2x + 3 lie on a straight line — that is why it is called a linear relationship."
-  },
-  {
-   "id": "u6-l1-a",
-   "part": 2,
-   "unit": "u6",
-   "lesson": "Lesson 1",
-   "title": "Questions & Types of Data",
-   "rule": "A statistical question anticipates many different answers about a group (“How tall are students in our class?”). A non-statistical question has one fixed answer (“How many students are in our class?”). Data are numerical (counts or measurements) or categorical (names or descriptions).",
-   "words": [
-    [
-     "Variability",
-     "Answers are not all the same (students' heights)."
-    ],
-    [
-     "Numerical",
-     "Counts or measurements (age, weight, books read)."
-    ],
-    [
-     "Categorical",
-     "Names or descriptions (eye colour, favourite sport)."
-    ],
-    [
-     "Collect data",
-     "Ask a survey, observe, measure or use a reliable record."
-    ]
-   ],
-   "items": [
-    {
-     "label": "Example 1",
-     "question": "Classify: “How many students are in our class?” and “How tall are students in our class?”",
-     "steps": [
-      "The first has one fixed answer.",
-      "The second needs many measurements that may vary."
-     ],
-     "answer": "Non-statistical; statistical."
-    },
-    {
-     "label": "Example 2",
-     "question": "Name the data type: students' favourite colours; number of books read.",
-     "steps": [
-      "Colours are descriptions.",
-      "Books read are counts."
-     ],
-     "answer": "Categorical; numerical."
-    },
-    {
-     "label": "Example 3",
-     "question": "Choose a suitable way to collect data about the number of siblings students have.",
-     "steps": [
-      "Ask each student the same question and record a whole-number answer.",
-      "Each answer may differ, so the question is statistical."
-     ],
-     "answer": "Survey the students; numerical data."
-    }
-   ],
-   "tricks": [
-    "“How many are in this one group?” is often a fixed, non-statistical count.",
-    "“How many / how tall are the students?” asks about a group and anticipates variation.",
-    "A number used as a label (for example, a jersey number) is categorical, not a measurement."
-   ],
-   "note": "First decide statistical or not, then numerical or categorical — that decides the best display later."
-  },
-  {
-   "id": "u6-l1-b",
-   "part": 2,
-   "unit": "u6",
-   "lesson": "Lesson 1",
-   "title": "Dot Plots & Bar Graphs",
-   "rule": "A dot plot places one dot for every individual numerical value; stacked dots show frequency. A bar graph compares categories with separate bars, equal gaps and a labelled frequency scale.",
-   "items": [
-    {
-     "label": "Example 1",
-     "question": "In a dot plot of 20 students, the frequencies at 0, 1, 2, 3, 4, 5 and 6 books are 2, 3, 4, 5, 3, 1 and 2. How many read 2 books? How many read 3 or more?",
-     "steps": [
-      "Count dots above 2: four.",
-      "Add the dots at 3, 4, 5 and 6: 5 + 3 + 1 + 2 = 11."
-     ],
-     "answer": "4 read 2 books; 11 read 3 or more."
-    },
-    {
-     "label": "Example 2",
-     "question": "A favourite-colour bar graph has red 5, green 3, blue 2 and yellow 6 students. How many were surveyed? Which is most popular?",
-     "steps": [
-      "Add frequencies: 5 + 3 + 2 + 6 = 16.",
-      "Compare the heights; yellow has 6."
-     ],
-     "answer": "16 students; yellow."
-    }
-   ],
-   "words": [
-    [
-     "Dot plot",
-     "Small numerical data; shows exact values, repeats, gaps and clusters."
-    ],
-    [
-     "Bar graph",
-     "Categorical comparisons; bars are separate and categories may be reordered."
-    ]
-   ],
-   "tricks": [
-    "Total surveyed = add all frequencies (or count all dots).",
-    "For “at least,” include the boundary; for “more than,” exclude it.",
-    "Read the scale before reading bar heights; check that the axis starts where expected."
-   ],
-   "note": "In a dot plot the values must be in order on the number line; bar-graph categories can go in any order."
-  },
-  {
-   "id": "u6-l2-a",
-   "part": 2,
-   "unit": "u6",
-   "lesson": "Lessons 2 & 3",
-   "title": "Histograms: Read the Intervals",
-   "rule": "A histogram groups numerical data into intervals (bins). Each bar height is that interval's frequency. Bars touch because the intervals are consecutive; intervals must not overlap.",
-   "words": [
-    [
-     "Interval / bin",
-     "A range of values grouped together (10–19, 20–29)."
-    ],
-    [
-     "Frequency",
-     "Number of data values in a category or interval."
-    ],
-    [
-     "Histogram",
-     "Numerical data grouped in bins, shown with adjoining bars."
-    ]
-   ],
-   "items": [
-    {
-     "label": "Example 1",
-     "question": "The mathematics-mark histogram has frequencies 20, 40, 60, 30, 10 for intervals 0–9, 10–19, 20–29, 30–39, 40–49. Find the total and the number scoring 20–39.",
-     "steps": [
-      "Total: 20 + 40 + 60 + 30 + 10 = 160.",
-      "For 20–39, add the two interval frequencies: 60 + 30 = 90."
-     ],
-     "answer": "160 students; 90 scored from 20 to 39."
-    },
-    {
-     "label": "Example 2",
-     "question": "From the same histogram, how many scored less than 20? How many scored 40 or more?",
-     "steps": [
-      "Less than 20: bins 0–9 and 10–19: 20 + 40 = 60.",
-      "40 or more: bins 40–49: 10."
-     ],
-     "answer": "60 scored less than 20; 10 scored 40 or more."
-    }
-   ],
-   "tricks": [
-    "Add frequencies to find the total; add adjacent bins for a wider interval.",
-    "“Less than 30” excludes 30; “30 or more” includes 30.",
-    "Histogram bars touch; bar-graph bars have gaps."
-   ],
-   "note": "A histogram hides the individual values: you know how many fall in 20–29, but not their exact marks."
-  },
-  {
-   "id": "u6-l2-b",
-   "part": 2,
-   "unit": "u6",
-   "lesson": "Lessons 2 & 3",
-   "title": "Make a Histogram",
-   "rule": "To make a histogram: find the data range, choose sensible equal-width intervals, count each value once into exactly one bin, then draw touching bars to a labelled frequency scale.",
-   "items": [
-    {
-     "label": "Example 1",
-     "question": "Marks of 40 pupils: 12, 35, 49, 55, 29, 37, 46, 32, 20, 42, 59, 48, 38, 34, 28, 10, 19, 34, 39, 53, 42, 49, 52, 44, 25, 17, 50, 31, 26, 55, 35, 45, 56, 27, 38, 44, 33, 36, 15, 27. Make bins of width 10.",
-     "steps": [
-      "Range = 59 − 10 = 49; intervals of 10 cover the data neatly.",
-      "Count in each non-overlapping bin: 10–19 → 5, 20–29 → 7, 30–39 → 12, 40–49 → 9, 50–59 → 7.",
-      "Frequencies total 5 + 7 + 12 + 9 + 7 = 40; draw adjoining rectangles with those heights and label both axes."
-     ],
-     "answer": "Frequencies 5, 7, 12, 9, 7; tallest bar is 30–39."
-    }
-   ],
-   "tricks": [
-    "For whole-number marks, 10–19 is followed by 20–29: no overlap or missing integer.",
-    "Check your frequency total against the number of observations (here, 40).",
-    "Equal-width bins make bar-height comparisons straightforward."
-   ],
-   "note": "A dot plot preserves exact individual values; a histogram shows grouped frequencies, not each exact value."
-  },
-  {
-   "id": "u6-l4-a",
-   "part": 2,
-   "unit": "u6",
-   "lesson": "Lesson 4",
-   "title": "Median & Quartiles",
-   "rule": "Arrange data in ascending order first. The median Q2 is the middle value (or the mean of the two middle values). Q1 is the median of the lower half; Q3 is the median of the upper half.",
-   "words": [
-    [
-     "Median (Q2)",
-     "Middle of ordered values; splits data into two halves."
-    ],
-    [
-     "Q1 / Q3",
-     "Median of the lower / upper half of the ordered data."
-    ],
-    [
-     "Five-number summary",
-     "Minimum, Q1, median, Q3, maximum."
-    ]
-   ],
-   "items": [
-    {
-     "label": "Example 1",
-     "question": "Find the median of 42, 23, 17, 30, 20.",
-     "steps": [
-      "Order: 17, 20, 23, 30, 42.",
-      "The middle (third) value is 23."
-     ],
-     "answer": "Median = 23."
-    },
-    {
-     "label": "Example 2",
-     "question": "Find the median of 27, 13, 23, 24, 13, 2.",
-     "steps": [
-      "Order: 2, 13, 13, 23, 24, 27.",
-      "Average the two middle values: (13 + 23) ÷ 2 = 18."
-     ],
-     "answer": "Median = 18."
-    },
-    {
-     "label": "Example 3",
-     "question": "Find the five-number summary for 2, 16, 14, 3, 6, 8, 10, 13, 9, 2, 11.",
-     "steps": [
-      "Order: 2, 2, 3, 6, 8, 9, 10, 11, 13, 14, 16.",
-      "Median = 9. Lower half 2, 2, 3, 6, 8 gives Q1 = 3.",
-      "Upper half 10, 11, 13, 14, 16 gives Q3 = 13."
-     ],
-     "answer": "Minimum 2, Q1 3, median 9, Q3 13, maximum 16."
-    }
-   ],
-   "tricks": [
-    "For an even number of values, average the two middle values to find the median.",
-    "When finding Q1 and Q3, leave the overall median out of both halves.",
-    "Always order first; the original list order tells you nothing about the middle."
-   ],
-   "note": "With 11 values, the median is the 6th; with 10 values, average the 5th and 6th."
-  },
-  {
-   "id": "u6-l4-b",
-   "part": 2,
-   "unit": "u6",
-   "lesson": "Lesson 4",
-   "title": "Draw & Read Box Plots",
-   "rule": "A box plot displays the five-number summary on a number line. The box runs from Q1 to Q3, a line marks the median, and whiskers reach the minimum and maximum.",
-   "items": [
-    {
-     "label": "Example 1",
-     "question": "Draw the box plot for 53, 55, 49, 51, 54, 52, 53, 60, 57.",
-     "steps": [
-      "Ordered data: 49, 51, 52, 53, 53, 54, 55, 57, 60.",
-      "Median = 53; Q1 is the median of 49, 51, 52, 53 = 51.5; Q3 is the median of 54, 55, 57, 60 = 56.",
-      "Plot the five values: 49, 51.5, 53, 56, 60."
-     ],
-     "answer": "Minimum 49, Q1 51.5, median 53, Q3 56, maximum 60."
-    },
-    {
-     "label": "Example 2",
-     "question": "A box plot has minimum 16, Q1 18, median 23, Q3 26 and maximum 28. What is its range?",
-     "steps": [
-      "Range = maximum − minimum.",
-      "28 − 16 = 12."
-     ],
-     "answer": "12."
-    },
-    {
-     "label": "Example 3",
-     "question": "What fraction of the data lies between Q1 and Q3?",
-     "steps": [
-      "The box covers the middle two of four equal sections."
-     ],
-     "answer": "About one-half of the data."
-    }
-   ],
-   "tricks": [
-    "Read the five marks in order: min, Q1, median, Q3, max.",
-    "The median is Q2; whiskers run from the minimum to Q1 and from Q3 to maximum.",
-    "A box plot shows spread and summary values, not the exact count or every data value."
-   ],
-   "note": "The middle half of the data lies between Q1 and Q3; each quarter is approximately one-fourth."
-  },
-  {
-   "id": "u6-l5",
-   "part": 2,
-   "unit": "u6",
-   "lesson": "Lesson 5",
-   "title": "Choose the Best Display",
-   "rule": "Choose the graph that shows the information your question needs: exact individual values (dot plot), grouped intervals and frequencies (histogram), or five-number summary and spread (box plot). Bar graphs compare categories.",
-   "words": [
-    [
-     "Dot plot",
-     "Exact frequency of a value, gaps, clusters, mode, individual data; count all dots for total."
-    ],
-    [
-     "Histogram",
-     "Frequency in an interval, most common interval, grouped-data total."
-    ],
-    [
-     "Box plot",
-     "Minimum, maximum, median, Q1, Q3 and spread by quarters; quick comparison."
-    ],
-    [
-     "Bar graph",
-     "Compare named categories (favourite TV show, colour, subject)."
-    ]
-   ],
-   "items": [
-    {
-     "label": "Example 1",
-     "question": "A class wants to know how many students chose each favourite TV show. Which graph?",
-     "steps": [
-      "Answers are category names, not numerical bins.",
-      "Compare category frequencies with separate bars."
-     ],
-     "answer": "Bar graph."
-    },
-    {
-     "label": "Example 2",
-     "question": "You need to find how many sheep weigh from 25 kg up to (but not including) 30 kg.",
-     "steps": [
-      "This is a numerical interval question.",
-      "Use grouped interval frequencies."
-     ],
-     "answer": "Histogram (if that bin is shown)."
-    },
-    {
-     "label": "Example 3",
-     "question": "Which graph best shows the median and upper quartile at a glance?",
-     "steps": [
-      "These values are part of the five-number summary."
-     ],
-     "answer": "Box plot."
-    },
-    {
-     "label": "Example 4",
-     "question": "Which graph shows exactly how many students read 4 books?",
-     "steps": [
-      "Exact individual value and its frequency are visible."
-     ],
-     "answer": "Dot plot."
-    }
-   ],
-   "tricks": [
-    "Ask “What must I know?” before selecting a graph: exact value, interval, category or summary?",
-    "Dot plot and histogram can show totals; a box plot alone cannot tell how many observations there are.",
-    "A histogram cannot reveal an exact individual value once data are grouped.",
-    "For “at least / no less than,” include the boundary; for “less than,” do not."
-   ],
-   "note": "Categorical → bar graph. Exact numerical values → dot plot. Grouped numerical → histogram. Summary & spread → box plot."
-  },
-  {
-   "id": "u7-l1-a",
-   "part": 2,
-   "unit": "u7",
-   "lesson": "Lessons 1 & 2",
-   "title": "Mean: Fair Share & Balance Point",
-   "rule": "The mean (average) is a central value: the balance point of a data set and the equal fair share each value would receive if the total were shared equally.",
-   "words": [
-    [
-     "Mean",
-     "Sum of all values divided by the number of values (mean of 2, 4, 6 is 4)."
-    ],
-    [
-     "Balance point",
-     "The point where a dot plot would balance evenly (8, 8, 8, 9, 12 balances at 9)."
-    ],
-    [
-     "Fair share",
-     "Equal amount after sharing the total equally (10 litres shared by 5 bottles gives 2 litres each)."
-    ]
-   ],
-   "items": [
-    {
-     "label": "Example 1",
-     "question": "Find the balance point (mean) of 1, 2, 3, 4, 4, 6, 8.",
-     "steps": [
-      "Add the values: 1 + 2 + 3 + 4 + 4 + 6 + 8 = 28.",
-      "There are 7 values; 28 shared into 7 equal groups is 4."
-     ],
-     "answer": "Mean and balance point = 4"
-    },
-    {
-     "label": "Example 2",
-     "question": "Find the mean of 3, 4, 6, 7, 8, 8, 6, 6.",
-     "steps": [
-      "Add: 3 + 4 + 6 + 7 + 8 + 8 + 6 + 6 = 48.",
-      "Divide by 8 values: 48 ÷ 8 = 6."
-     ],
-     "answer": "6"
-    }
-   ],
-   "tricks": [
-    "Count the values carefully; the divisor is the number of data values, not the greatest value.",
-    "Mean = total ÷ count. Check by multiplying your mean by the count to recover the total.",
-    "A balance-point question and a mean question ask for the same value."
-   ],
-   "note": "“Fair share” = mean. 10 litres shared equally by 5 bottles → 2 litres each."
-  },
-  {
-   "id": "u7-l1-b",
-   "part": 2,
-   "unit": "u7",
-   "lesson": "Lessons 1 & 2",
-   "title": "Calculate the Mean",
-   "rule": "Mean = sum of the values ÷ number of values. For a missing value, first calculate the total required by the stated mean; then subtract the known total.",
-   "items": [
-    {
-     "label": "Example 1",
-     "question": "Calculate the mean of 3, 9, 5, 16, 7.",
-     "steps": [
-      "Sum = 3 + 9 + 5 + 16 + 7 = 40.",
-      "There are 5 values: 40 ÷ 5 = 8."
-     ],
-     "answer": "8"
-    },
-    {
-     "label": "Example 2",
-     "question": "Find x if the mean of 3, 7, x, 8 is 5.",
-     "steps": [
-      "Four values with mean 5 must total 5 × 4 = 20.",
-      "Known values total 3 + 7 + 8 = 18; x = 20 − 18."
-     ],
-     "answer": "x = 2"
-    },
-    {
-     "label": "Example 3",
-     "question": "A fifth plank makes the mean length of five planks 37.48 dm. Four lengths are 25.6, 34.2, 44.9 and 38.3 dm. Find the fifth length.",
-     "steps": [
-      "Required total = 5 × 37.48 = 187.4 dm.",
-      "Known total = 25.6 + 34.2 + 44.9 + 38.3 = 143.0 dm; subtract from the required total."
-     ],
-     "answer": "44.4 dm"
-    }
-   ],
-   "tricks": [
-    "For an unknown in a mean problem: mean × count gives the required total.",
-    "Do not divide by the known-value count when solving for a missing value; use the full count.",
-    "Keep decimal place values lined up when adding measurements."
-   ],
-   "note": "Mean × count always gives the total — this undo trick solves every missing-value mean question."
-  },
-  {
-   "id": "u7-l3-a",
-   "part": 2,
-   "unit": "u7",
-   "lesson": "Lesson 3",
-   "title": "Median, Mode & Outliers",
-   "rule": "Order the values from least to greatest to find the median. The mode occurs most often. An outlier lies far outside most of the data and can strongly affect the mean.",
-   "words": [
-    [
-     "Median",
-     "Middle value when ordered (2, 4, 7 has median 4)."
-    ],
-    [
-     "Mode",
-     "Value(s) occurring most often (3, 3, 5, 7 has mode 3)."
-    ],
-    [
-     "Outlier",
-     "Value much smaller or larger than most (4, 5, 5, 6, 30 has outlier 30)."
-    ]
-   ],
-   "items": [
-    {
-     "label": "Example 1",
-     "question": "Find median, mode and outlier: 19, 3, 5, 7, 4, 5, 6.",
-     "steps": [
-      "Order: 3, 4, 5, 5, 6, 7, 19.",
-      "The fourth value is the median; 5 occurs most often; 19 is far from the rest."
-     ],
-     "answer": "Median 5; mode 5; outlier 19"
-    },
-    {
-     "label": "Example 2",
-     "question": "Find the median and mode: 4, 4, 6, 6, 6, 6, 8, 8, 8, 16.",
-     "steps": [
-      "Ordered already; with 10 values, average the 5th and 6th: (6 + 6) ÷ 2.",
-      "Six occurs most often; 16 is separated from the main group."
-     ],
-     "answer": "Median 6; mode 6; outlier 16"
-    }
-   ],
-   "tricks": [
-    "Always arrange the data before choosing the median; an even count means average the two middle values.",
-    "A set may have two modes (bimodal), or no mode if all values occur equally often.",
-    "One extreme value can pull the mean toward it, but usually has little effect on the median."
-   ],
-   "note": "The mode is the only average you can use for categorical data, like favourite colour."
-  },
-  {
-   "id": "u7-l3-b",
-   "part": 2,
-   "unit": "u7",
-   "lesson": "Lesson 3",
-   "title": "Outliers & Choosing a Center",
-   "rule": "A small outlier decreases the mean; a large outlier increases it. Choose the median when data include an outlier or are strongly skewed. For symmetric data, mean and median are both suitable.",
-   "items": [
-    {
-     "label": "Example 1",
-     "question": "Compare the mean of 5, 88, 90, 93, 94 with and without the outlier 5.",
-     "steps": [
-      "With 5: total 370; 370 ÷ 5 = 74.",
-      "Without 5: total 365; 365 ÷ 4 = 91.25."
-     ],
-     "answer": "The low outlier decreases the mean."
-    },
-    {
-     "label": "Example 2",
-     "question": "A data set is 10, 15, 15, 20, 80. Find both means with and without outlier 80.",
-     "steps": [
-      "Without 80: 60 ÷ 4 = 15.",
-      "With 80: 140 ÷ 5 = 28."
-     ],
-     "answer": "High outlier increases mean from 15 to 28."
-    },
-    {
-     "label": "Example 3",
-     "question": "Which center is better to describe incomes when one income is far greater than all others?",
-     "steps": [
-      "The very high income is an outlier and pulls the mean upward.",
-      "The median stays near the middle of the ordered incomes."
-     ],
-     "answer": "Median, because it is less affected by the outlier."
-    }
-   ],
-   "tricks": [
-    "Outlier on the left pulls mean down; outlier on the right pulls mean up.",
-    "For a symmetric dot plot, adding balanced extreme values may leave the mean unchanged.",
-    "With an outlier, the median is often the fairer description of a typical value."
-   ],
-   "note": "The median never moves much: it depends on ORDER, not on how big the extreme value is."
-  },
-  {
-   "id": "u7-l4",
-   "part": 2,
-   "unit": "u7",
-   "lesson": "Lesson 4",
-   "title": "Range: How Spread Out?",
-   "rule": "Range measures the spread from the smallest to greatest value. Range = greatest value − smallest value. A larger range means a wider spread; a range of zero means all values are equal.",
-   "words": [
-    [
-     "Range",
-     "Difference between the maximum and minimum (values 3, 8, 10 have range 7)."
-    ],
-    [
-     "Spread",
-     "How far apart the data values are (a large range means more spread)."
-    ]
-   ],
-   "items": [
-    {
-     "label": "Example 1",
-     "question": "Find the range of 6, 7, 5, 1, 9, 12, 3, 4.",
-     "steps": [
-      "Greatest value = 12; smallest value = 1.",
-      "Subtract: 12 − 1 = 11."
-     ],
-     "answer": "11"
-    },
-    {
-     "label": "Example 2",
-     "question": "The scores are 25, 29, 15, 17, 21, 19, 24. Find their range.",
-     "steps": [
-      "Maximum = 29 and minimum = 15.",
-      "Range = 29 − 15 = 14."
-     ],
-     "answer": "14"
-    },
-    {
-     "label": "Example 3",
-     "question": "Data set A is 60, 58, 62, 61, 59; data set B is 72, 78, 46, 65, 39. Compare their ranges.",
-     "steps": [
-      "A: 62 − 58 = 4. B: 78 − 39 = 39.",
-      "B has a much wider spread; range uses only the extreme values."
-     ],
-     "answer": "Range A = 4; range B = 39; B is more spread out."
-    }
-   ],
-   "tricks": [
-    "Range is greatest minus least — not the number of values, and not least minus greatest.",
-    "A large range suggests wide spread; a small range suggests values are closer together.",
-    "Range is quick but depends only on two values, so an outlier can greatly change it."
-   ],
-   "note": "Range zero means every value is the same: 7, 7, 7 has range 0."
-  }
- ]
+  ]
 }

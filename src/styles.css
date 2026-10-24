@@ -219,3 +219,10 @@ button, input, select, textarea { font-family: inherit; }
   .examples { grid-template-columns: 1fr 1fr; }
   .sheet:last-child { page-break-after: auto; break-after: auto; }
 }
+
+/* Superscript exponents rendered from the `base^{exp}` data notation */
+sup.exponent {
+  font-size: 0.72em;
+  vertical-align: super;
+  line-height: 0;
+}

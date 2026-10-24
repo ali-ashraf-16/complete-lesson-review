@@ -19,6 +19,22 @@ export const Route = createFileRoute("/")({
 });
 
 type Item = { label: string; question: string; steps?: string[]; answer: string };
+
+/** Renders `base^{exp}` data notation as a real superscript (e.g. 5^{6} → 5⁶). */
+function MathText({ text }: { text: string }) {
+  const parts = text.split(/(\^\{[^}]*\})/);
+  return (
+    <>
+      {parts.map((p, i) =>
+        p.startsWith("^{") ? (
+          <sup key={i} className="exponent">{p.slice(2, -1)}</sup>
+        ) : (
+          <span key={i}>{p}</span>
+        ),
+      )}
+    </>
+  );
+}
 type Sheet = {
   id: string; unit: string; lesson: string; title: string; rule: string;
   words?: string[][]; items: Item[]; tricks: string[]; note: string;
@@ -63,11 +79,11 @@ function SheetView({ s, n }: { s: Sheet; n: number }) {
         <span className="sheet-no">Sheet {n}</span>
       </header>
       <h2 className="sheet-title">{s.title}</h2>
-      <div className="box rule"><h3>Rule</h3><p>{s.rule}</p></div>
+      <div className="box rule"><h3>Rule</h3><p><MathText text={s.rule} /></p></div>
       {s.words && (
         <div className="box"><h3>Key Words</h3>
           <table className="words"><tbody>
-            {s.words.map(([k, v]) => (<tr key={k}><th>{k}</th><td>{v}</td></tr>))}
+            {s.words.map(([k, v]) => (<tr key={k}><th>{k}</th><td><MathText text={v} /></td></tr>))}
           </tbody></table>
         </div>
       )}
@@ -75,16 +91,16 @@ function SheetView({ s, n }: { s: Sheet; n: number }) {
         {s.items.map((it) => (
           <div key={it.label} className="example">
             <span className="ex-label">{it.label}</span>
-            <p className="q">{it.question}</p>
-            {it.steps && <ol>{it.steps.map((st, i) => <li key={i}>{st}</li>)}</ol>}
-            <p className="ans"><b>Answer:</b> {it.answer}</p>
+            <p className="q"><MathText text={it.question} /></p>
+            {it.steps && <ol>{it.steps.map((st, i) => <li key={i}><MathText text={st} /></li>)}</ol>}
+            <p className="ans"><b>Answer:</b> <MathText text={it.answer} /></p>
           </div>
         ))}
       </div>
       <div className="box tricks"><h3>Exam Tricks</h3>
-        <ul>{s.tricks.map((t, i) => <li key={i}>{t}</li>)}</ul>
+        <ul>{s.tricks.map((t, i) => <li key={i}><MathText text={t} /></li>)}</ul>
       </div>
-      <div className="box note"><b>✎ Note:</b> {s.note}</div>
+      <div className="box note"><b>✎ Note:</b> <MathText text={s.note} /></div>
       <Footer />
     </section>
   );
